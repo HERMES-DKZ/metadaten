@@ -1,75 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/01-introduction.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/404.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/aio.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/images.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/data.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/dublincore.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/01-introduction.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/getting_started.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/404.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/aio.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/images.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-notes.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/introduction.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/data.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/dublincore.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/getting_started.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/introduction.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/introduction_standards.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/metadata.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/metadataformats.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/mets.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/rdf.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor/xml.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/introduction_standards.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/metadata.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/metadataformats.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/mets.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/rdf.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://HERMES-DKZ.github.io/metadaten/xml.html</loc>
   </url>
 </urlset>
