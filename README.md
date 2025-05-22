@@ -1,84 +1,33 @@
-# The Carpentries Workbench Template Markdown Lesson
+# Daten und Metadaten in den Geisteswissenschaften: Strukturen, Schemata und Standards
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench]. 
+Diese Lektion ist eine deutsche gekürzte Fassung der Lektion [Data and Metadata in the Humanities: Structures, Schemas, and Standards](https://hermes-dkz.github.io/metadata_lesson/). Sie befindet sich zurzeit noch in Bearbeitung.
 
-## Note about lesson life cycle stage
-Although the `config.yaml` states the life cycle stage as pre-alpha, **the template is stable and ready to use**. The life cycle stage is preset to `"pre-alpha"` as this setting is appropriate for new lessons initialised using the template.
+Die Digitalisierung hat tiefgreifende Auswirkungen auf die Geisteswissenschaften, da sie die Art und Weise verändert, wie Wissen erzeugt, zugänglich gemacht und interpretiert wird. Nahezu alles wird heute in Daten überführt und durch Prozesse der Digitalisierung, Visualisierung und Publikation miteinander vernetzt. Kultur und Geschichte manifestieren sich zunehmend in vernetzten Formen – eine Entwicklung, die durch digitale Technologien maßgeblich vorangetrieben wird. In diesem Zusammenhang spielen Daten und Metadaten eine zentrale Rolle.
 
-## Create a new repository from this template
+Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten in den Geisteswissenschaften. Die Teilnehmenden lernen grundlegende Konzepte von Daten und Metadaten kennen sowie gängige Formate wie XML und JSON und relevante Metadatenstandards.
 
-To use this template to start a new lesson repository, 
-make sure you're logged into Github.   
-Visit https://github.com/carpentries/workbench-template-md/generate
-and follow the instructions.
-Checking the 'Include all branches' option will save some time waiting for the first website build
-when your new repository is initialised.
+Diese Lektion wurde speziell für Forschende in den Geistes- und Kulturwissenschaften entwickelt, mit dem Ziel, Teil eines zukünftigen geisteswissenschaftlichen Curriculums im Rahmen des Data Carpentry-Lehrprogramms zu werden. Sie ist für Lernende ohne Vorkenntnisse konzipiert. 
 
-If you have any questions, contact [@tobyhodges](https://github.com/tobyhodges)
+## Acknowledgements
 
-## Configure a new lesson
+This lesson utilizes slightly modified sample from:
+* [Metropolitan Museum of Art's Open Access Initiative](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) dataset. The original [dataset](https://github.com/metmuseum/openaccess) is available as an Open Access CSV and is provided under the [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/).
+* [The Museum of Modern Art (MoMA) Collection](https://github.com/MuseumofModernArt/collection) datasets. The original datasets are also available under the CCO licence.
+* a xsd file as a draft for the [Marburger Urkundenrepositorium - Datenbank des CAO und LBA](https://urkundenrepositorium.uni-marburg.de/home), kindly provided by the author Mathias Gutenbrunner, University Library Marburg. 
 
-Follow the steps below to
-complete the initial configuration of a new lesson repository built from this template:
 
-1. **Make sure GitHub Pages is activated:**
-   navigate to _Settings_,
-   select _Pages_ from the left sidebar,
-   and make sure that `gh-pages` is selected as the branch to build from.
-   If no `gh-pages` branch is available, check the _Actions_ tab to see if the first
-   website build workflows are still running.
-   If they're not running yet, you may need to manually enable them via the _Actions_ tab.
-   The branch should become available when those have completed.
-1. **Adjust the `config.yaml` file:**
-   this file contains global parameters for your lesson site.
-   Individual fields within the file are documented with comments (beginning with `#`)
-   At minimum, you should adjust all the fields marked 'FIXME':
-   - `title`
-   - `created`
-   - `keywords`
-   - `life_cycle` (the default, _pre-alpha_, is the appropriate for brand new lessons)
-   - `contact`
-1. **Annotate the repository** with site URL and topic tags:
-   navigate back to the repository landing page and
-   click on the gear wheel/cog icon (similar to ⚙️) 
-   at the top-right of the _About_ box.
-   Check the "Use your GitHub Pages website" option,
-   and [add some keywords and other annotations to describe your lesson](https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags)
-   in the _Topics_ field.
-   At minimum, these should include:
-   - `lesson`
-   - the life cycle of the lesson (e.g. `pre-alpha`)
-   - the human language the lesson is written in (e.g. `deutsch`)
-1. **Adjust the 
-   `CITATION.cff`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
-   as appropriate for your project.
-   -  `CITATION.cff`:
-      this file contains information that people can use to cite your lesson,
-      for example if they publish their own work based on it.
-      You should [update the CFF][cff-sandpaper-docs] now to include information about your lesson,
-      and remember to return to it periodically, keeping it updated as your
-      author list grows and other details become available or need to change.
-      The [Citation File Format home page][cff-home] gives more information about the format,
-      and the [`cffinit` webtool][cffinit] can be used to create new and update existing CFF files.
-   -  `CODE_OF_CONDUCT.md`: 
-      if you are using this template for a project outside The Carpentries,
-      you should adjust this file to describe 
-      who should be contacted with Code of Conduct reports,
-      and how those reports will be handled.
-   -  `CONTRIBUTING.md`:
-      depending on the current state and maturity of your project,
-      the contents of the template Contributing Guide may not be appropriate.
-      You should adjust the file to help guide contributors on how best
-      to get involved and make an impact on your lesson.
-   -  `LICENSE.md`:
-      in line with the terms of the CC-BY license,
-      you should ensure that the copyright information 
-      provided in the license file is accurate for your project.
-1. **Update this README with 
-   [relevant information about your lesson](https://carpentries.github.io/lesson-development-training/collaborating-newcomers.html#readme)**
-   and delete this section.
+## Förderung
 
-[cff-home]: https://citation-file-format.github.io/
-[cff-sandpaper-docs]:  https://carpentries.github.io/sandpaper-docs/editing.html#making-your-lesson-citable
-[cffinit]: https://citation-file-format.github.io/cff-initializer-javascript/
-[workbench]: https://carpentries.github.io/sandpaper-docs/
+Diese Lektion wird im Rahmen des Verbundprojekts [HERMES - Humanities Education in Research, Data, and Methods](hermes-hub.de) entwickelt. HERMES wird vom Bundesministerium für Bildung und Forschung (BMBF) mit Mitteln der Europäischen Union gefördert.
+
+## Autor*innen
+
+[Corinna Berg](https://github.com/KassieBee) 
+
+[Ksenia Stanicka-Brzezicka](https://github.com/kseniastanicka) 
+
+## Lizenz
+CC-BY 
+
+## Kontakt
+Wenden Sie sich gerne an [Corinna Berg](https://github.com/KassieBee) oder [Ksenia Stanicka-Brzezicka](https://github.com/kseniastanicka) bei Fragen zum Inhalt oder zur kollaborativen Weiterentwicklung. 
