@@ -8,17 +8,17 @@ Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten
 
 Diese Lektion wurde speziell für Forschende in den Geistes- und Kulturwissenschaften entwickelt, mit dem Ziel, Teil eines zukünftigen geisteswissenschaftlichen Curriculums im Rahmen des Data Carpentry-Lehrprogramms zu werden. Sie ist für Lernende ohne Vorkenntnisse konzipiert. 
 
-## Acknowledgements
+## Datensätze
 
-This lesson utilizes slightly modified sample from:
-* [Metropolitan Museum of Art's Open Access Initiative](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) dataset. The original [dataset](https://github.com/metmuseum/openaccess) is available as an Open Access CSV and is provided under the [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/).
-* [The Museum of Modern Art (MoMA) Collection](https://github.com/MuseumofModernArt/collection) datasets. The original datasets are also available under the CCO licence.
-* a xsd file as a draft for the [Marburger Urkundenrepositorium - Datenbank des CAO und LBA](https://urkundenrepositorium.uni-marburg.de/home), kindly provided by the author Mathias Gutenbrunner, University Library Marburg. 
+In dieser Lektion werden modifizierte Daten aus folgenden Datensätzen und Projekten verwendet:
+* [Metropolitan Museum of Art's Open Access Initiative](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Datensatz. Der originale [Datensatz](https://github.com/metmuseum/openaccess) ist als Open Access CSV unter der [Creative Commons Zero Lizenz](https://creativecommons.org/publicdomain/zero/1.0/) verfügbar.
+* [The Museum of Modern Art (MoMA) Collection](https://github.com/MuseumofModernArt/collection) Datensätze. Die originalen Datensätze stehen unter einer CCO Lizenz zur Verfügung.
+* Der Entwurf einer xsd-Datei für das [Marburger Urkundenrepositorium - Datenbank des CAO und LBA](https://urkundenrepositorium.uni-marburg.de/home), freundlicherweise zur Verfügung gestellt vom Autor Mathias Gutenbrunner, Universitätsbiliothek Marburg. 
 
 
 ## Förderung
 
-Diese Lektion wird im Rahmen des Verbundprojekts [HERMES - Humanities Education in Research, Data, and Methods](hermes-hub.de) entwickelt. HERMES wird vom Bundesministerium für Bildung und Forschung (BMBF) mit Mitteln der Europäischen Union gefördert.
+Diese Lektion wird im Rahmen des Verbundprojekts [HERMES - Humanities Education in Research, Data, and Methods](hermes-hub.de) entwickelt. HERMES wird vom Bundesministerium für Forschung, Technologie und Raumfahrt mit Mitteln der Europäischen Union gefördert.
 
 ## Autor*innen
 
