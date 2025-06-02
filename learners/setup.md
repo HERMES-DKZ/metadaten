@@ -22,7 +22,7 @@ Die Daten wurden folgenden Projekten bzw. Datensätzen entnommen und für diese 
 
 ### Details
 
-Sie benötigen ein Tabellenkalkulationsprogramm wie Excel oder Libre Calc. Ebenso benötigen Sie einen Editor wie Notepad, Vim oder Kate. Eine Erweiterung für XMl-Funktionalitäten ist nicht notwendig. 
+Sie benötigen ein Tabellenkalkulationsprogramm wie Excel oder Libre Calc. Ebenso benötigen Sie einen Editor wie Notepad, Vim oder Kate. Eine Erweiterung für XML-Funktionalitäten ist nicht notwendig. 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
