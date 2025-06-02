@@ -2,15 +2,18 @@
 title: Setup
 ---
 
-## Data Sets
+## Datensätze
 
-Download the [data zip file](/episodes/data/artworks_data.zip) and unzip it to your Desktop. Download also the [lba_cao_exercise.xsd](/episodes/data/lba_cao_exercise.xsd). 
+Laden die die Zip-Datei mit den [Daten](/episodes/data/artworks_data.zip) herunter und speichern Sie sich diese an einem geeigneten Platz wie etwa dem Desktop. Entpacken Sie die Datei.   
+Laden Sie ebenso die Datei [lba_cao_exercise.xsd](/episodes/data/lba_cao_exercise.xsd) herunter und speichern Sie diese dort, wo Sie die anderen Daten gespeichert haben.  
 
-This lesson utilizes slightly modified sample from:
+In dieser Lektion werden modifizierte Daten aus folgenden Datensätzen und Projekten verwendet:  
 
-- Metropolitan Museum of Art's [Open Access Initiative](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) dataset. [The original dataset](https://github.com/metmuseum/openaccess) is available as an Open Access CSV and is provided under the Creative Commons Zero license.
-- The Museum of Modern Art (MoMA) Collection datasets. The [original datasets](https://github.com/MuseumofModernArt/collection) are also available under the CCO licence.
-- A xsd file as a draft for the Marburger Urkundenrepositorium - Datenbank des CAO und LBA, kindly provided by the author Mathias Gutenbrunner, University Library Marburg.
+* [Metropolitan Museum of Art's Open Access Initiative](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Datensatz. Der originale [Datensatz](https://github.com/metmuseum/openaccess) ist als Open Access CSV unter der [Creative Commons Zero Lizenz](https://creativecommons.org/publicdomain/zero/1.0/) verfügbar.  
+* 
+* [The Museum of Modern Art (MoMA) Collection](https://github.com/MuseumofModernArt/collection) Datensätze. Die originalen Datensätze stehen unter einer CCO Lizenz zur Verfügung.  
+* 
+* Der Entwurf einer xsd-Datei für das [Marburger Urkundenrepositorium - Datenbank des CAO und LBA](https://urkundenrepositorium.uni-marburg.de/home), freundlicherweise zur Verfügung gestellt vom Autor Mathias Gutenbrunner, Universitätsbiliothek Marburg. 
 
 
 ## Software Setup
@@ -19,7 +22,7 @@ This lesson utilizes slightly modified sample from:
 
 ### Details
 
-You need a spreasheet software like Excel or Libre Calc as well as a text editor like Notepad, Vim or Kate. Advanced XML functionality within the text editor is not required.
+Sie benötigen ein Tabellenkalkulationsprogramm wie Excel oder Libre Calc. Ebenso benötigen Sie einen Editor wie Notepad, Vim oder Kate. Eine Erweiterung für XMl-Funktionalitäten ist nicht notwendig. 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -27,8 +30,8 @@ You need a spreasheet software like Excel or Libre Calc as well as a text editor
 
 ### Windows
 
-If you have installed MS Office including Excel you can use this spreadsheet software. Otherwise you can install the open source software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) and use Libre Office Calc.  
-You can use the default text editor or install for example Windows Notepad from the store. 
+Wenn Sie MS Office einschließlich Excel installiert haben, können Sie diese Tabellenkalkulationssoftware verwenden. Andernfalls können Sie die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) installieren und Libre Office Calc verwenden.  
+Sie können den Standardtexteditor verwenden oder z.B. Windows Notepad aus dem Store installieren. 
 
 ::::::::::::::::::::::::
 
@@ -36,8 +39,8 @@ You can use the default text editor or install for example Windows Notepad from 
 
 ### MacOS
 
-If you have installed MS Office for Mac including Excel you can use this spreadsheet software. Otherwise you can install the open source software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) and use Libre Office Calc. 
-You can use a text editor such as TextEdit or any other text editor you like.
+Wenn Sie MS Office für Mac einschließlich Excel installiert haben, können Sie diese Tabellenkalkulationssoftware verwenden. Andernfalls können Sie die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) installieren und Libre Office Calc verwenden. 
+Sie können einen Texteditor wie TextEdit oder einen anderen Texteditor Ihrer Wahl verwenden.
 
 ::::::::::::::::::::::::
 
@@ -46,8 +49,8 @@ You can use a text editor such as TextEdit or any other text editor you like.
 
 ### Linux
 
-You can install the open source software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) and use Libre Office Calc or any other spreadsheet software you like. 
-You can use the default text editor or install for example [Vim](https://www.vim.org/). 
+Sie können die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) installieren und Libre Office Calc oder jedes andere beliebige Tabellenkalkulationsprogramm nutzen. 
+Sie können den Standard-Texteditor verwenden oder zum Beispiel [Vim](https://www.vim.org/) installieren. 
 
 ::::::::::::::::::::::::
 

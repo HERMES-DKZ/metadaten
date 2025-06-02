@@ -14,6 +14,6 @@
 "episodes/dublincore.md" "50619a279bb8546d8664646e74fcc49b" "site/built/dublincore.md" "2025-05-22"
 "episodes/rdf.md" "cd032469c9bd0037c8d8fb1d97d51a95" "site/built/rdf.md" "2025-05-22"
 "instructors/instructor-notes.md" "cae72b6712578d74a49fea7513099f8c" "site/built/instructor-notes.md" "2023-03-16"
-"learners/setup.md" "7ea47cab54d2d39f23c4fe8c92d522e1" "site/built/setup.md" "2025-05-22"
+"learners/setup.md" "603e0d075c6d31cdce5726ce2679719b" "site/built/setup.md" "2025-06-02"
 "learners/reference.md" "65b73cb837384a006170600a1c17869c" "site/built/reference.md" "2025-05-22"
 "profiles/learner-profiles.md" "eaabcb0205f4fe9ccbd68d75601263f1" "site/built/learner-profiles.md" "2025-06-02"
