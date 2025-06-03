@@ -6,7 +6,7 @@ site: sandpaper::sandpaper_site
 Diese Lektion wurde speziell für Forschende der Geistes- und Kulturwissenschaften ohne Vorkenntnisse entwickelt.
 :::  
 
-Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten in den Geisteswissenschaften. Die Teilnehmenden lernen grundlegende Konzepte von Daten und Metadaten kennen sowie gängige Formate wie XML und JSON und relevante Metadatenstandards.
+Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten in den Geisteswissenschaften. Die Teilnehmenden lernen grundlegende Konzepte von Daten und Metadaten kennen sowie gängige Formate wie XML und relevante Metadatenstandards.
 
 ### Lernziele
 
@@ -21,7 +21,7 @@ Nach Beenden dieser Lerneinheit sind Lernende in der Lage,
 - zwischen den wesentlichen Typen von Metadaten zu unterscheiden. 
 - Metadatenkonzepte im Rahmen praktischer Herausforderungen anzuwenden. 
 - die Rolle der Metadaten für die Geisteswissenschaften zu erkennen. 
-- Daten und Metadaten in einfachen XML- und JSON-Formaten zu schreiben und strukturieren.
+- Daten und Metadaten in einfachem XML zu schreiben und strukturieren.
 - die Begriffe Metadatenstandard, Metadatenschema und Metadatenmodell zu erklären und Unterschiede zu benennen.
 - die wichtigsten Konzepte der Metadatenstandards Dublin Core und METS zu benennen.
 - grundlegende Metadaten in den Standards Dublin Core und METS zu strukturieren.
