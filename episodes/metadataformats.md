@@ -71,9 +71,9 @@ Eine mögliche Quelle für Fehler und Probleme, die auftreten können und diskut
 :::
 
 
-## Das CSV-Format
+## Das CSV-Format  
 
-Das CSV-Format (comma-separated values) in diesem Beispiel wird normalerweise als Tabelle in einem Tabellenkalkulationsprogramm wie Excel geöffnet, damit es von Menschen strukturiert gelesen werden kann. Wenn Sie das Format in einem Texteditor öffnen, erkennen Sie die Struktur der Datei:
+Das CSV-Format (comma-separated values) in diesem Beispiel wird normalerweise als Tabelle in einem Tabellenkalkulationsprogramm wie Excel geöffnet, damit es von Menschen strukturiert gelesen werden kann. Wenn Sie das Format in einem Texteditor öffnen, erkennen Sie die Struktur der Datei:  
 
 ```
 ID;artist;title;date
@@ -86,47 +86,47 @@ ID;artist;title;date
 3;Banksy;Girl with Ballon;2002
 ```
 
-In dem Moment, in dem Sie die CSV-Datei in einem Tabellenkalkulationsprogramm geöffnet haben, wurden einige Parameter abgefragt, bevor Sie die Inhalte angezeigt bekommen haben. Hier ist der Grund dafür:
+In dem Moment, in dem Sie die CSV-Datei in einem Tabellenkalkulationsprogramm geöffnet haben, wurden einige Parameter abgefragt, bevor Sie die Inhalte angezeigt bekommen haben. Hier ist der Grund dafür:  
 
-Die Daten in dieser speziellen CSV-Datei sind durch Semikolons – die so genannten Trennzeichen oder *delimiter* – getrennt. Die meisten Dateien, die Trennzeichen jeglicher Art nutzen, erhalten oft die Erweiterung *.csv*, auch wenn das Trennzeichen kein Komma ist, wie das vorliegende Beispiel zeigt. In vielen Dateien finden Sie den Inhalt der Datenfelder in Anführungszeichen eingeschlossen, wenn Sie die Datei in einem Editor öffnen. Dies sieht man in einem Tabellenprogramm nicht. Die einzelenen Datensätze stehen meist in einer Zeile und werden durch einen Zeilenumbruch getrennt. Oft definiert die erste Zeile die Spaltenüberschriften. Werden diese Parameter beim Öffnen der Datei korrekt eingegeben, werden die Daten in die entsprechenden Felder der Tabellenkalkulation übertragen.
+Die Daten in dieser speziellen CSV-Datei sind durch Semikolons – die so genannten Trennzeichen oder *delimiter* – getrennt. Die meisten Dateien, die Trennzeichen jeglicher Art nutzen, erhalten oft die Erweiterung *.csv*, auch wenn das Trennzeichen kein Komma ist, wie das vorliegende Beispiel zeigt. In vielen Dateien finden Sie den Inhalt der Datenfelder in Anführungszeichen eingeschlossen, wenn Sie die Datei in einem Editor öffnen. Dies sieht man in einem Tabellenprogramm nicht. Die einzelenen Datensätze stehen meist in einer Zeile und werden durch einen Zeilenumbruch getrennt. Oft definiert die erste Zeile die Spaltenüberschriften. Werden diese Parameter beim Öffnen der Datei korrekt eingegeben, werden die Daten in die entsprechenden Felder der Tabellenkalkulation übertragen.  
 
-## Unterschied zioschen CSV- und XSLX-Dateien
-
-
-
-An XSLS format allows you to store, format and apply formulas to data in multiple spreadsheets that are stored in a single file. Data is organised into cells, which are arranged in rows and columns. Both the cells and the data values within them can be formatted, including fonts, colours and borders. The data can be manipulated using built-in functions, e.g. for calculation or analysis. It is also possible to visualise the analysed data in spreadsheet software such as Excel. 
-
-One of the disadvantages is the limited number of rows and columns - for example 1,048,576 rows and 16,385 columns per worksheet depending on your software version. Other features can depend on the software version as well. Older tables may not always display correctly with the latest version due to a lack of feature compatibility.  
-
-The CSV (comma-separated values) format stores tabular data in plain text that can be opened in spreadsheet software. It is therefore readable by both humans and machines. There is always only one table stored in a single file. However, the plain text format allows more data to be stored in a file, making it particularly efficient as it does not store superfluous data such as formatting data. It is therefore suitable for storing and exchanging data between applications or databases.  
-
-One of its disadvantages is that it can only store simple tabular data, and not data with more complex structures.
+## Unterschied zwischen CSV- und XSLX-Dateien
 
 
-#### Data Organization
+Mit einem XSLS-Format können Sie Daten in mehreren Tabellenblättern, die in einer einzigen Datei gespeichert sind, speichern, formatieren und Formeln darauf anwenden. Die Daten sind in Zellen organisiert, die in Zeilen und Spalten angeordnet sind. Sowohl die Zellen als auch die darin enthaltenen Datenwerte können formatiert werden, einschließlich Schriftarten, Farben und Rahmen. Die Daten können mit integrierten Funktionen bearbeitet werden, z. B. für Berechnungen oder Analysen. Es ist auch möglich, die analysierten Daten in Tabellenkalkulationsprogrammen wie Excel zu visualisieren.
+
+Einer der Nachteile ist die begrenzte Anzahl von Zeilen und Spalten - zum Beispiel 1.048.576 Zeilen und 16.385 Spalten pro Arbeitsblatt, abhängig von Ihrer Softwareversion. Auch andere Funktionen können von der Softwareversion abhängen. Ältere Tabellen werden in der neuesten Version aufgrund mangelnder Kompatibilität der Funktionen möglicherweise nicht immer korrekt angezeigt.
+
+Das CSV-Format (comma-separated values) speichert tabellarische Daten in einfachem Text, der in Tabellenkalkulationsprogrammen geöffnet werden kann. Es ist daher sowohl von Menschen als auch von Maschinen lesbar. Es wird immer nur eine Tabelle in einer einzigen Datei gespeichert. In diesem Textformat können jedoch mehr Daten in einer Datei gespeichert werden, was es besonders effizient macht. Es werden keine überflüssigen Daten wie Formatierungsdaten gespeichert. Daher eignet es sich für die Speicherung und den Austausch von Daten zwischen Anwendungen oder Datenbanken.
+
+Einer der Nachteile ist, dass in diesem Format nur einfache tabellarische Daten gespeichert werden können, nicht aber Daten mit komplexeren Strukturen.
 
 
+#### Datenorganisation
 
-When entering data into spreadsheets, there are a number of issues that need to be considered to ensure that the data can be processed correctly. In addition to the comma-separated fields mentioned above, which can cause problems, there are many other issues. Dates or names are a major source of error. Different spellings can lead to misinterpretation. For example, how do you interpret the date 25-01-11 if it is written in a single field? Or: Which part of a person's name is the first name and which part is the surname?
+Bei der Eingabe von Daten in Tabellen gibt es eine Reihe von Aspekten zu beachten, damit die Daten korrekt verarbeitet werden können. Neben den oben erwähnten kommagetrennten Feldern, die Probleme verursachen können, gibt es noch viele andere Probleme. Datumsangaben oder Namen sind eine große Fehlerquelle. Unterschiedliche Schreibweisen können zu Fehlinterpretationen führen. Wie interpretieren Sie zum Beispiel das Datum 25-01-11, wenn es in einem einzigen Feld steht? Oder: Welcher Teil des Namens einer Person ist der Vorname und welcher Teil ist der Nachname?
 
 ::: callout
 
-### Find out more on Data Organization
+### Mehr zur Organisation von Daten
 
-For further reading see [Data Organization in Spreadsheets for Social Scientists](https://datacarpentry.github.io/spreadsheets-socialsci/)
+Sie finden weitere Informationen zur Organisation von Daten in der Lektion [Data Organization in Spreadsheets for Social Scientists](https://datacarpentry.github.io/spreadsheets-socialsci/)
 
 :::
 
 
-An important part of recording metadata is annotating the data. Take *Walker Evans* as an example: Annotating - i.e. tagging - him as "artist" or "photographer" allows users to understand the role of this entry in the context of the dataset. In the spreadsheet example, "artist" is one of the column headings. 
 
-If you are using a spreadsheet to annotate dates, it may be worth splitting the year, month and day into separate fields to avoid the problem described above. Later you will learn about other ways to display dates correctly.   
+Ein wichtiger Teil bei der Erfassung von Metadaten ist die Annotierung der Daten. Nehmen Sie *Walker Evans* als Beispiel: Wenn Sie ihn als „Künstler“ oder „Fotograf“ kennzeichnen, können die Benutzer die Rolle im Kontext des Datensatzes verstehen. 
 
-There are certain data formats that solve some of the problems mentioned here - for example data created with a markup language. Markup languages are used to structure and format text and data in a machine-readable way. They are based on a meta-language called SGML. SGML is a standard for markup languages. It specifies how to define the syntax (rules) for elements, attributes, and document structure in a markup language. 
+Wenn Sie Datumsangaben in einer Tabelle erfassen, kann es sich lohnen, Jahr, Monat und Tag in separate Felder aufzuteilen, um das oben beschriebene Problem zu vermeiden. 
+
+
+Es gibt bestimmte Datenformate, die einige der hier genannten Probleme lösen. So zum Beispiel wenn Daten mit einer Auszeichnungssprache (Markup Language) erfasst werden. Auszeichnungssprachen werden zur Strukturierung und Formatierung von Text und Daten in maschinenlesbarer Form verwendet. Sie beruhen auf einer Metasprache namens SGML (Standard Generalized Markup Language). SGML ist ein Standard für Auszeichnungssprachen. Sie legt fest, wie die Syntax (Regeln) für Elemente, Attribute und die Dokumentstruktur in einer Auszeichnungssprache zu definieren ist. In der Episode zu XML erfahren Sie mehr dazu. 
 
 ::: keypoints
 
-* If you need to format the data and spreadsheet, use the XSLX format to store and analyse the data.  
-* If you don't need to analyse or visualise the data, use an interoperable format such as CSV to store or share the data.  
-* It is helpful to annotate the data - for example with headers.  
-* Be aware of the problems that can occur when annotating data and metadata with, for example, dates or names.
+* Wenn Sie die Daten und die Tabelle formatieren oder Daten mit der Software analysieren wollen, verwenden Sie das XSLX-Format zum Speichern, Formatieren und Analysieren der Daten.    
+* Wenn Sie die Daten nicht analysieren oder visualisieren müssen, verwenden Sie ein interoperables Format wie CSV, um die Daten zu speichern oder weiterzugeben.    
+* Es ist hilfreich die Daten bei der Erfassung zu annotieren, zum Beispiel durch Überschriften zu kennzeichnen.   
+* Seien Sie sich der Probleme bewusst, die entstehen können, wenn Sie zum Beispiel Datums- oder Namensangaben erfassen und machen Sie sich vorab Gedanken, welche Form für Ihre Zwecke geeignet sein könnte.
+:::
