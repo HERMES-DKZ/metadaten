@@ -6,7 +6,7 @@ site: sandpaper::sandpaper_site
 Diese Lektion wurde speziell für Forschende der Geistes- und Kulturwissenschaften ohne Vorkenntnisse entwickelt.
 :::  
 
-Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten in den Geisteswissenschaften. Die Teilnehmenden lernen grundlegende Konzepte von Daten und Metadaten kennen sowie gängige Formate wie XML und relevante Metadatenstandards.
+Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten in den Geisteswissenschaften. Die Teilnehmenden lernen grundlegende Konzepte von Daten und Metadaten kennen sowie XML und relevante Metadatenstandards.
 
 ### Lernziele
 
