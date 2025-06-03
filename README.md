@@ -4,7 +4,7 @@ Diese Lektion ist eine deutsche gekürzte Fassung der Lektion [Data and Metadata
 
 Die Digitalisierung hat tiefgreifende Auswirkungen auf die Geisteswissenschaften, da sie die Art und Weise verändert, wie Wissen erzeugt, zugänglich gemacht und interpretiert wird. Nahezu alles wird heute in Daten überführt und durch Prozesse der Digitalisierung, Visualisierung und Publikation miteinander vernetzt. Kultur und Geschichte manifestieren sich zunehmend in vernetzten Formen – eine Entwicklung, die durch digitale Technologien maßgeblich vorangetrieben wird. In diesem Zusammenhang spielen Daten und Metadaten eine zentrale Rolle.
 
-Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten in den Geisteswissenschaften. Die Teilnehmenden lernen grundlegende Konzepte von Daten und Metadaten kennen sowie gängige Formate wie XML und JSON und relevante Metadatenstandards.
+Diese Lerneinheit dient als Einführung in die Bedeutung von Daten und Metadaten in den Geisteswissenschaften. Die Teilnehmenden lernen grundlegende Konzepte von Daten und Metadaten kennen sowie XML und relevante Metadatenstandards.
 
 Diese Lektion wurde speziell für Forschende in den Geistes- und Kulturwissenschaften entwickelt, mit dem Ziel, Teil eines zukünftigen geisteswissenschaftlichen Curriculums im Rahmen des Data Carpentry-Lehrprogramms zu werden. Sie ist für Lernende ohne Vorkenntnisse konzipiert. 
 
