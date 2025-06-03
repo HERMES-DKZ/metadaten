@@ -85,7 +85,6 @@ Dies ist eine von mehreren möglichen Lösungen.
 ### Diskussion
 
 Was haben Sie diskutiert? Was waren die Herausforderungen bei der Zuordnung? 
-
 :::
 
 Haben Sie darüber diskutiert, welches Datum in das *date*-Feld gehört? Woher wissen wir nun, welches Datum genau gemeint ist? Das Datum der Erstellung des Objekts, das der Digitalisierung, der Veröffentlichung oder das der Übermittlung an die Institution?   
@@ -132,7 +131,7 @@ Schauen Sie sich das *date*-Element genauer an. Eine Liste aller authorisierten 
 
 In diesem Set werden alle vorhandenen Kernelemente zusammengefasst und durch ergänzende Felder erweitert und präzisiert, zum Beispiel durch *dateAccepted* oder zusätzliche Felder wie *abstract*. 
 
-Die Terms:  
+Die [Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/):  
   
 |      |      |      |      |      |  
 |:----:|:----:|:----:|:----:|:----:|  
@@ -153,13 +152,14 @@ Die Terms:
 ### Diskussion
 
 Wie ist Ihre Meinung zu dem erweiterten Metatdatenset? Fehlen Ihnen aus Ihrem Fachgebiet zum Beispiel noch spezielle Felder? Können Sie sich vorstellen für ein in Ihrem Fachgebiet relevantes Objekt alle Felder auszufüllen? 
-
-:::
+:::   
 
 ::: callout
 
 Sehr wahrscheinlich werden Sie feststellen, dass mit den im Dublin-Core-Standard vorgegebenen Metadatenfeldern nicht alle Objekte erfasst werden können. Auch können Sie nicht alle Felder immer ausfüllen. Daher gibt es viele weitere Standards oder Schemata, die für das jeweilige Fachgebiet oder spezielle Objekte des kulturellen Erbes erstellt worden sind. Es wird Ihnen eventuell auch auffallen, wenn Sie andere Standards oder Schemata betrachten, dass einige wiederum Elemente von Dublin Core nachnutzen.  
+:::   
 
+  
 ::: keypoints
 - Der Dublin-Core-Standard umfasst einen einfachen Satz von 15 Elementen sowie einen erweiterten Satz mit zusätzlichen Eigenschaften, Klassen, Datentypen und Kodierungsschemata.  
 - Alle Felder sind optional, nicht obligatorisch, können mehrfach und in beliebiger Reihenfolge erscheinen. Dublin Core definiert die Metadatenfelder selbst, aber nicht die Struktur für sie. 
