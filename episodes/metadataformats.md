@@ -10,7 +10,8 @@ exercises: 10
 
 :::
 
-::: objectives
+::: objectives  
+
 Nach Beendigung dieser Episode sollten die Teilnehmende in der Lage sein
 
 - die Grundstruktur eines CSV-Formats zur Speicherung und Verarbeitung von Metadaten zu beschreiben, 
@@ -21,7 +22,7 @@ Nach Beendigung dieser Episode sollten die Teilnehmende in der Lage sein
 
 ## Einführung in Dateiformate für Metadatenspeicherung und -verarbeitung
 
-:: challenge
+::: challenge
 
 ### Frage 
 Kennen Sie Formate in denen man Daten strukturiert speichern kann? 
@@ -66,7 +67,9 @@ Der Vorteil der Verwendung eines solchen Formats ist die Interoperabilität der 
 :::
 :::
 
+
 ::: instructor
+
 Eine mögliche Quelle für Fehler und Probleme, die auftreten können und diskutiert werden sollten, sind die Trennzeichen. Es wurde bewusst ein Titel mit Komma in die Datei aufgenommen, damit dieser Titel über mehrere Felder hinweg angezeigt werden kann, wenn unterschiedliche Trennzeichen gewählt werden.
 :::
 
@@ -108,13 +111,9 @@ Bei der Eingabe von Daten in Tabellen gibt es eine Reihe von Aspekten zu beachte
 
 ::: callout
 
-### Mehr zur Organisation von Daten
-
 Sie finden weitere Informationen zur Organisation von Daten in der Lektion [Data Organization in Spreadsheets for Social Scientists](https://datacarpentry.github.io/spreadsheets-socialsci/)
 
-:::
-
-
+:::  
 
 Ein wichtiger Teil bei der Erfassung von Metadaten ist die Annotierung der Daten. Nehmen Sie *Walker Evans* als Beispiel: Wenn Sie ihn als „Künstler“ oder „Fotograf“ kennzeichnen, können die Benutzer die Rolle im Kontext des Datensatzes verstehen. 
 
