@@ -13,8 +13,6 @@ Diese Lektion wurde speziell für Forschende in den Geistes- und Kulturwissensch
 In dieser Lektion werden modifizierte Daten aus folgenden Datensätzen und Projekten verwendet:
 * [Metropolitan Museum of Art's Open Access Initiative](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Datensatz. Der originale [Datensatz](https://github.com/metmuseum/openaccess) ist als Open Access CSV unter der [Creative Commons Zero Lizenz](https://creativecommons.org/publicdomain/zero/1.0/) verfügbar.
 * [The Museum of Modern Art (MoMA) Collection](https://github.com/MuseumofModernArt/collection) Datensätze. Die originalen Datensätze stehen unter einer CCO Lizenz zur Verfügung.
-* Der Entwurf einer xsd-Datei für das [Marburger Urkundenrepositorium - Datenbank des CAO und LBA](https://urkundenrepositorium.uni-marburg.de/home), freundlicherweise zur Verfügung gestellt vom Autor Mathias Gutenbrunner, Universitätsbiliothek Marburg. 
-
 
 ## Förderung
 
