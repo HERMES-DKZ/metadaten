@@ -5,7 +5,6 @@ title: Setup
 ## Datensätze
 
 Laden Sie die Zip-Datei mit den [Daten](/episodes/data/artworks_data.zip) herunter und speichern Sie diese an einem geeigneten Ort wie etwa dem Desktop. Entpacken Sie die Datei.   
-Laden Sie ebenso die Datei [lba_cao_exercise.xsd](/episodes/data/lba_cao_exercise.xsd) herunter und speichern Sie diese dort, wo Sie die anderen Daten gespeichert haben.  
 
 Die Daten wurden folgenden Projekten bzw. Datensätzen entnommen und für diese Lektion modifiziert:  
 
@@ -13,9 +12,6 @@ Die Daten wurden folgenden Projekten bzw. Datensätzen entnommen und für diese 
   
 * [The Museum of Modern Art (MoMA) Collection](https://github.com/MuseumofModernArt/collection) Datensätze. Die originalen Datensätze stehen unter einer CCO Lizenz zur Verfügung.    
  
-* Der Entwurf einer xsd-Datei für das [Marburger Urkundenrepositorium - Datenbank des CAO und LBA](https://urkundenrepositorium.uni-marburg.de/home), freundlicherweise zur Verfügung gestellt vom Autor Mathias Gutenbrunner, Universitätsbiliothek Marburg. 
-
-
 ## Software Setup
 
 ::::::::::::::::::::::::::::::::::::::: discussion
