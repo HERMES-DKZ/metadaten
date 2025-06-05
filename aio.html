@@ -860,7 +860,147 @@ und <em>Metadatenmodell</em> zu erläutern,</li>
 </div>
 </div>
 </div>
-</div></section><section id="aio-mets"><p>Content from <a href="mets.html">Metadata Encoding &amp; Transmission Standard (METS)</a></p>
+</div>
+<section><h2 class="section-heading" id="standard-schema-oder-modell">Standard, Schema oder Modell?<a class="anchor" aria-label="anchor" href="#standard-schema-oder-modell"></a>
+</h2>
+<hr class="half-width">
+<p>Die Begriffe <em>Metadatenstandard</em>, <em>Metadatenschema</em> und
+<em>Metadatenmodell</em> werden oft synonym verwendet. Im Folgenden wird
+versucht, zwischen den Begriffen zu differenzieren. Es muss jedoch
+betont werden, dass dies kein universeller Anspruch ist; vielmehr soll
+es ein besseres Verständnis der Strukturen der Datenstandardisierung
+ermöglichen, da es keine allgemein akzeptierten Definitionen dieser
+Begriffe gibt.</p>
+</section><section><h2 class="section-heading" id="metadaten-standard">Metadaten-Standard<a class="anchor" aria-label="anchor" href="#metadaten-standard"></a>
+</h2>
+<hr class="half-width">
+<p>Ein Metadatenstandard ist eine technische Spezifikation, die
+beschreibt, wie Daten erfasst oder strukturiert werden sollten. Es gibt
+verschiedene Möglichkeiten, Daten zu standardisieren. Zwei der
+wichtigsten Konzepte werden in dieser Lektion vorgestellt. Zum einen
+wird jedes Element oder Datenfeld eindeutig benannt (z. B. Autor, Titel
+usw.) und kann durch Regeln in Form von Attributen (z. B. Datentyp)
+spezifiziert werden. Andererseits kann eine Struktur für die Erfassung
+der Daten in Form von Gruppen oder Kategorien definiert werden, z. B.
+administrative, technische und beschreibende Metadaten. Beide Methoden
+liefern eine grundlegende Beschreibung und Organisation der Daten und
+standardisieren sie dadurch. Natürlich ist auch eine Kombination der
+beiden Methoden möglich.</p>
+<p>Für verschiedene Themen und Fachgebiete gibt es unterschiedliche
+Standards. Damit wird sichergestellt, dass z.B. die Regeln für die
+Erfassung von Daten in einem Archiv oder einer Bibliothek berücksichtigt
+werden. Das Provenienzprinzip in Archiven oder das Pertinenzprinzip in
+Bibliotheken lassen sich auf diese Weise abbilden.</p>
+<div class="section level4">
+<h4 id="beispiel">Beispiel<a class="anchor" aria-label="anchor" href="#beispiel"></a>
+</h4>
+<p>Struktur der Metadaten:</p>
+<ul>
+<li>Administrative Metadaten</li>
+<li>Beschreibende Metadaten</li>
+<li>Strukturelle Metadaten</li>
+<li>Technische Metadaten</li>
+</ul>
+<p>Metadaten-Elemente:</p>
+<ul>
+<li>Ersteller</li>
+<li>Herausgeber</li>
+<li>Datum</li>
+<li>Rechte</li>
+<li>Paginierung</li>
+<li>Dateiformat</li>
+<li>Titel</li>
+</ul>
+<p>Metadatenelemente innerhalb einer Struktur:</p>
+<ul>
+<li>Administrative Metadaten
+<ul>
+<li>Herausgeber</li>
+<li>Rechte</li>
+</ul>
+</li>
+<li>Beschreibende Metadaten
+<ul>
+<li>Ersteller</li>
+<li>Datum</li>
+<li>Titel</li>
+</ul>
+</li>
+<li>Strukturelle Metadaten
+<ul>
+<li>Paginierung</li>
+</ul>
+</li>
+<li>Technische Metadaten
+<ul>
+<li>Dateiformat</li>
+</ul>
+</li>
+</ul>
+</div>
+</section><section><h2 class="section-heading" id="metadaten-schema">Metadaten-Schema<a class="anchor" aria-label="anchor" href="#metadaten-schema"></a>
+</h2>
+<hr class="half-width">
+<p>Ein <em>Metadatenschema</em> wird meist zur Strukturierung von Daten
+in einem bestimmten Kontext verwendet, und es gibt unzählige Standards
+für jede Disziplin oder einen spezifischen Zweck. Während der
+Entwicklungsphase der Datenstruktur kann zudem ein vorhandener
+Metadatenstandard integriert werden. So wird der, in der folgenden
+Episode behandelte, Dublin Core Standard oft als Grundlage genutzt, um
+dessen Felder in ein spezifisches Modell zu übernehmen.</p>
+<p>Stellen Sie sich vor, Sie möchten das Foto eines Gebäudes
+beschreiben. In den Metadaten haben Sie ein Element namens „creator“.
+Welchen Namen würden Sie hier eingeben? Den des Fotografen oder den des
+Architekten? Hier können Sie „Rolle“ als Metadatenelement hinzufügen, um
+den Kontext der personenbezogenen Daten weiter zu beschreiben.
+Möglicherweise möchten Sie auch die Daten für das Foto und das
+abgebildete Gebäude getrennt strukturieren, um die Informationen korrekt
+anzuzeigen. Ein Schema kann eine benutzerdefinierte Struktur oder die
+Hierarchie einer Sammlung abbilden sowie Datenfelder für bestimmte
+Themen definieren. Ein Schema stellt die Daten also in einen gewünschten
+Kontext und legt die Beziehungen zwischen den enthaltenen Informationen
+fest.</p>
+</section><section><h2 class="section-heading" id="konzeptionelles-modell">Konzeptionelles Modell<a class="anchor" aria-label="anchor" href="#konzeptionelles-modell"></a>
+</h2>
+<hr class="half-width">
+<p><em>Konzeptionelle Modelle</em>, auch semantische Datenmodelle
+genannt, sind in der Regel Abstraktionen von realen Entitäten. Sie
+werden verwendet, um die Daten einer Sammlung oder eines spezialisierten
+Bereichs auf abstrakte Weise formal zu erfassen. Ein Beispiel für ein
+solches Modell ist das Entity-Relationship-Modell, das die Beziehung
+zwischen zwei Datenentitäten beschreibt. Zum Beispiel kann die Beziehung
+zwischen der Entität des Autors „Franz Kafka“ und der Entität des Buches
+„Der Prozess“ durch die Beziehung „hat geschrieben“ definiert
+werden.<br>
+Der Vorteil dieser Beziehung ist, dass sie eine flexible Verknüpfung von
+Daten ermöglicht. Darüber hinaus kann die Entität „Buch“ mit der Entität
+“Verlag” über die Beziehung „hat veröffentlicht“ verknüpft werden.</p>
+<figure><img src="fig/triple.png" alt="Abbildung der Entitätsbeziehungen in einem konzeptionellen Modell, mit Triples zur Verknüpfung von Daten" class="figure mx-auto d-block"><div class="figcaption">Entitätsbeziehungen für ein konzeptionelles
+Modell</div>
+</figure><p>Im konzeptionellen Modell werden die Daten in Form von Tripeln
+modelliert. Ein Tripel besteht aus einem Subjekt, einem Objekt und einem
+Prädikat. Das Prädikat beschreibt die Beziehung zwischen dem Subjekt,
+der zu beschreibenden Entität, und dem Objekt (der mit dem Subjekt
+verbundenen Entität):</p>
+<p>Autor (Subjekt) hat geschrieben (Prädikat) Buch (Objekt).</p>
+<p>Ein Objekt kann das Subjekt eines anderen Tripels werden und
+umgekehrt, wie das obige Beispiel zeigt.</p>
+<p>Dieser Ansatz wird hauptsächlich im Semantic Web verwendet, wo er als
+Grundgerüst für verknüpfte offene Daten (Linked Open Data) dient. Linked
+Open Data (LOD) zielen darauf ab, ein Höchstmaß an Verknüpfung zwischen
+Datensätzen zu erreichen. Entitäten werden in diesem Zusammenhang mit
+eindeutigen Bezeichnern in den Metadaten versehen, die wiederum
+Entitäten darstellen, die über eigene Metadaten verfügen. Zur
+Veranschaulichung: Eine Entität kann durch ihren Bezeichner im Kontext
+der Wissensdatenbank der Wikimedia Foundation, bekannt als “Wikidata”,
+beschrieben werden. Durch die Herstellung dieser Verknüpfungen werden
+die in diesem Zusammenhang verfügbaren Daten indirekt genutzt. Wie dies
+praktisch aussieht, erfahren Sie in der Episode zu RDF.</p>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-mets"><p>Content from <a href="mets.html">Metadata Encoding &amp; Transmission Standard (METS)</a></p>
 <hr>
 <p>Last updated on 2025-05-22 |
 
