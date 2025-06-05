@@ -1,21 +1,20 @@
 ---
-title: "Introduction to Metadata Standards and Schemas"
+title: "Einführung in Metadatenstandards, -schemata und -modelle"
 teaching: 20
 exercises: 10
 ---
 ::: questions 
 
-- What is a metadata standard?
-- What is a metadata schema?
-- What is a model?
+- Was ist ein Metadatenstandard?
+- Was ist ein Metadatenschema?
+- Was ist ein Modell?
 
 :::
 
 ::: objectives
 
-After completing this episode, participants should be able to
+Nach Beendigung dieser Episode sollten die Teilnehmende in der Lage sein,
 
-- explain the terms *metadata standard*, *metadata schema* and *metadata model*,     
-- memorize the basic ideas of standard, schema and model,    
-- summarize the basic concepts and data relationships for standards, schemas and models.  
+- die Begriffe *Metadatenstandard*, *Metadatenschema* und *Metadatenmodell* zu erläutern,     
+
 :::
