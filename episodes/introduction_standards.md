@@ -13,7 +13,7 @@ exercises: 10
 
 ::: objectives
 
-Nach Beendigung dieser Episode sollten die Teilnehmende in der Lage sein,
+Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein,
 
 - die Begriffe *Metadatenstandard*, *Metadatenschema* und *Metadatenmodell* zu erläutern,     
 
