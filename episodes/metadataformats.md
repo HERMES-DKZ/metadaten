@@ -12,7 +12,7 @@ exercises: 10
 
 ::: objectives  
 
-Nach Beendigung dieser Episode sollten die Teilnehmende in der Lage sein
+Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein
 
 - die Grundstruktur eines CSV-Formats zur Speicherung und Verarbeitung von Metadaten zu beschreiben, 
 - eine einfache CSV-Datei zu öffnen und zu untersuchen,
