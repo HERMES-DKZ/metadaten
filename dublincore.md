@@ -12,7 +12,7 @@ exercises: 10
 
 ::: objectives  
 
-Nach Beendigung dieser Episode sollten die Teilnehmende in der Lage sein  
+Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein  
 
 - die wichtigsten Elemente des Dublin Core Metadata Element Set zu identifizieren,   
 - zwischen einfachem und qualifiziertem Dublin Core zu unterscheiden,
