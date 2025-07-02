@@ -5,15 +5,15 @@ exercises: 20
 ---
 ::: questions 
 
-- What is the Metadata Encoding & Transmission Standard?
-- What are its important elements? 
+- Was ist der Metadata Encoding & Transmission Standard?
+- Welches sind die wichtigsten Elemente des Standards? 
 
 :::
 
 ::: objectives
-After completing this episode, participants should be able to  
+Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein  
 
-- describe the basic concept of the Metadata Encoding & Transmission Standard,  
-- discuss the important elements for structuring data in METS.  
+- die wesentlichen Konzepte des Metadata Encoding & Transmission Standards zu beschreiben,  
+- die wichtigsten Elemente zur Strukturierung von Daten in METS zu benennen.  
    
 :::
