@@ -4,12 +4,12 @@ teaching: 30
 exercises: 10
 ---
 
-::: Fragen 
+::: questions 
 - Was sind Daten in den Geisteswissenschaften?
 - Was sind die Unterschiede zwischen verschiedenen Arten von Daten?
 :::
 
-::: Ziele   
+::: objectives   
 
 Nach Abschluss dieser Lerneinheit sollten die Teilnehmenden in der Lage sein  
 
@@ -76,7 +76,7 @@ Diese Transformation ermöglicht einen breiteren Zugang, bringt aber auch Einsch
 :::
 :::  
 
-Mit analogen Daten meinen wir die physischen Artefakte im Museum. Die Sammlung des Museums umfasst zahlreiche materielle Objekte wie Skulpturen, Gemälde und andere Artefakte, die ausschließlich in ihrer ursprünglichen, nicht-digitalen Form existieren. So enthält zum Beispiel die Sammlung altägyptischer Kunst im Metropolitan Museum etwa 30.000 Objekte – wie hier zu sehen ist [here](https://www.metmuseum.org/about-the-met/collection-areas/egyptian-art).
+Mit analogen Daten meinen wir die physischen Artefakte im Museum. Die Sammlung des Museums umfasst zahlreiche materielle Objekte wie Skulpturen, Gemälde und andere Artefakte, die ausschließlich in ihrer ursprünglichen, nicht-digitalen Form existieren. So enthält zum Beispiel die Sammlung altägyptischer Kunst im Metropolitan Museum etwa 30.000 Objekte – wie [hier](https://www.metmuseum.org/about-the-met/collection-areas/egyptian-art) zu sehen ist.
 
 Mit digitalisierten Daten meinen wir zum Beispiel digitalisierte Lichtbilder von Objekten. Hochauflösende Fotografien von Kunstwerken und Artefakten – etwa Gemälden, Skulpturen oder archäologischen Fundstücken – wurden digitalisiert, um sie für Forschung und Öffentlichkeit zugänglich zu machen. Diese Bilder sind über die Online-Datenbank der Museumssammlung abrufbar.
 

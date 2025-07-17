@@ -35,7 +35,7 @@ Es gibt drei **Haupttypen von Metadaten**:
 
 Deskriptive Metadaten sind entscheidend für das Auffinden und Identifizieren von Ressourcen wie Büchern, Zeitschriftenartikeln oder digitalen Archiven in den Geisteswissenschaften, für die Katalogisierung und Analyse von Kunstwerken in Museumsdatenbanken oder wissenschaftlichen Studien und unterstützen Historiker*innen beim Auffinden und Studieren von Primärquellen.
 
-**Strukturele Metadaten** geben Auskunft darüber, wie zusammengesetzte Objekte aufgebaut sind bzw. wie ihre einzelnen Bestandteile miteinander verknüpft sind.
+**Strukturelle Metadaten** geben Auskunft darüber, wie zusammengesetzte Objekte aufgebaut sind bzw. wie ihre einzelnen Bestandteile miteinander verknüpft sind.
 
 Zum Beispiel definiert die strukturelle Metadatenbeschreibung eines digitalisierten mittelalterlichen Manuskripts in einem Online-Archiv die Hierarchie und Organisation des Manuskripts:
 
