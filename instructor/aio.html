@@ -256,7 +256,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="data.html">2. Data</a>
+        <a href="data.html">2. Daten</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -268,7 +268,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="metadata.html">3. Metadata</a>
+        <a href="metadata.html">3. Metadaten</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -406,7 +406,7 @@
         
 <section id="aio-getting_started"><p>Content from <a href="getting_started.html">Getting Started</a></p>
 <hr>
-<p>Last updated on 2025-05-22 |
+<p>Last updated on 2025-07-17 |
 
         <a href="https://github.com/HERMES-DKZ/metadaten/edit/main/episodes/getting_started.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
@@ -421,9 +421,8 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What does digitalisation mean for the humanities?<br>
-</li>
-<li>How is digitalisation changing the humanities?</li>
+<li>Was bedeutet die Digitalisierung für die Geisteswissenschaften?</li>
+<li>Wie verändert die Digitalisierung die Geisteswissenschaften?</li>
 </ul>
 </div>
 </div>
@@ -432,58 +431,406 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<p>After completing this episode, participants should be able to</p>
+<p>Nach Abschluss dieser Einheit sollten die Teilnehmenden in der Lage
+sein,</p>
 <ul>
-<li>providing a basic explanation of the theoretical and methodological
-implications of working with data.</li>
+<li>eine grundlegende Erklärung der theoretischen und methodischen
+Implikationen der Arbeit mit Daten zu geben.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-</div></section><section id="aio-data"><p>Content from <a href="data.html">Data</a></p>
+</div>
+<section><h2 class="section-heading" id="einführung">Einführung<a class="anchor" aria-label="anchor" href="#einf%C3%BChrung"></a>
+</h2>
+<hr class="half-width">
+<p>Die Digitalisierung beeinflusst die Geisteswissenschaften
+grundlegend, indem sie die Art und Weise verändert, wie Wissen erzeugt,
+zugänglich gemacht und interpretiert wird. Heute wird nahezu alles in
+Daten übersetzt und durch Prozesse wie Digitalisierung, Visualisierung
+und Veröffentlichung miteinander vernetzt. Kultur und Geschichte treten
+zunehmend in vernetzten Formen hervor – ein Wandel, der durch digitale
+Technologien erheblich vorangetrieben wird. In diesem Kontext nehmen
+Daten und Metadaten eine zentrale Rolle ein. Diese Lektion dient als
+Einführung in die Bedeutung von Daten und Metadaten in den
+Geisteswissenschaften. Die Teilnehmenden werden mit den grundlegenden
+Konzepten von Daten und Metadaten sowie mit Formaten wie XML und JSON
+sowie gängigen Metadatenstandards vertraut gemacht.</p>
+</section><section><h2 class="section-heading" id="exploratory-questions">Exploratory Questions<a class="anchor" aria-label="anchor" href="#exploratory-questions"></a>
+</h2>
+<hr class="half-width">
+<p>Überlege:</p>
+<p>Woher beziehen Sie Ihre Informationen?</p>
+<ul>
+<li>Wie verfassen Sie Ihre Texte?</li>
+<li>Wie pflegen Sie Ihre Kontakte zu Institutionen, sowohl im
+akademischen als auch im beruflichen Bereich?</li>
+<li>Nutzen Sie eher Papierkopien von Archivdokumenten oder digitale
+Fotografien davon?</li>
+<li>Haben Sie schon einmal ein Archiv persönlich besucht, um vor Ort zu
+recherchieren?</li>
+<li>Haben Sie schon einmal die Website eines Museums oder einer
+Bibliothek genutzt, um digitale Ressourcen zu recherchieren?</li>
+</ul>
+<p>Reflektieren Sie, wie sehr Digitalität inzwischen verschiedene
+Bereiche Ihrer beruflichen und privaten Lebenswelt durchdringt – und wie
+viel davon sich bereits ganz selbstverständlich anfühlt.</p>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Reflektieren Sie das letzte Thema, an dem Sie gearbeitet haben.
+Suchen Sie nach Online-Ressourcen, die Ihre Forschung unterstützen oder
+Ihr Verständnis vertiefen könnten. Mit welchen Herausforderungen waren
+Sie bei der Recherche oder Interpretation online verfügbarer
+Informationen konfrontiert?</p>
+</div>
+</div>
+</div>
+<p><strong>Die Digitalisierung beeinflusst die Geisteswissenschaften
+grundlegend, indem sie die Art und Weise verändert, wie Wissen erzeugt,
+zugänglich gemacht und interpretiert wird. Heute wird nahezu alles in
+Daten übersetzt und durch Prozesse wie Digitalisierung, Visualisierung
+und Veröffentlichung miteinander vernetzt. Kultur und Geschichte treten
+zunehmend in vernetzten Formen hervor – ein Wandel, der durch digitale
+Technologien erheblich vorangetrieben wird.</strong></p>
+<p>In diesem Zusammenhang spielen <strong>Daten</strong> und
+<strong>Metadaten</strong> eine wichtige Rolle. <strong>Daten</strong>
+sind unverarbeitete Informationen wie Texte, Bilder oder Einträge in
+einer Datenbank. <strong>Metadaten</strong> liefern den Kontext – also
+Beschreibungen, Schlagworte oder Informationen darüber, wie und wann die
+Daten entstanden sind.</p>
+<p>Die Digitalisierung beginnt mit der Umwandlung von Inhalten in Daten.
+Ganz gleich, ob es sich um Texte, Bilder oder Töne handelt – all diese
+Inhalte werden in digitaler Form als Daten gespeichert. Damit diese
+Daten sinnvoll genutzt, gefunden und verstanden werden können, müssen
+sie beschrieben und geordnet werden. Genau hier kommen Metadaten ins
+Spiel: Sie liefern Informationen über die Daten – etwa darüber, was sie
+darstellen, wann sie entstanden sind oder wie sie verwendet werden
+können.</p>
+<p>Hier ist eine übersetzte und stilistisch verbesserte Version mit
+einem didaktischen Tonfall:</p>
 <hr>
-<p>Last updated on 2025-05-22 |
+<p>Beim Arbeiten mit digitalen Ressourcen sind sowohl
+<strong>Daten</strong> als auch <strong>Metadaten</strong> entscheidend
+– sie ermöglichen es, Informationen zu ordnen, gezielt zu suchen und
+sinnvoll zu interpretieren. Die Herausforderungen, denen Sie bei
+Online-Recherchen begegnen, spiegeln die Komplexität im Umgang mit
+diesen Elementen wider. Dazu zählen unter anderem die Sicherstellung der
+Genauigkeit, der Erhalt des Kontexts sowie der Umgang mit großen
+Informationsmengen.</p>
+<p>Bevor wir in den praktischen Teil der Lerneinheit übergehen, wollen
+wir kurz besprechen, <strong>in welchen Bereichen die Digitalisierung
+für die Geisteswissenschaften eine zentrale Rolle spielt</strong>.</p>
+<div class="section level4">
+<h4 id="transformation-der-forschungsmethoden">1. Transformation der Forschungsmethoden<a class="anchor" aria-label="anchor" href="#transformation-der-forschungsmethoden"></a>
+</h4>
+<p>Digitale Werkzeuge ermöglichen es Forschenden, mit großen Datenmengen
+zu arbeiten, etwa mit eingescannten Texten, Bildern oder historischen
+Dokumenten. Techniken wie Text-Mining, Mustererkennung und
+Datenvisualisierung helfen dabei, neue Erkenntnisse zu gewinnen, die mit
+traditionellen Methoden nur schwer zu erreichen sind. Machen Sie sich
+keine Sorgen, wenn Ihnen diese Methoden noch nicht vertraut sind – das
+Verständnis der Konzepte von Daten und Metadaten ist der erste Schritt,
+um sich diesen Themen zu nähern. Die Digitalisierung von Sammlungen in
+Galerien, Bibliotheken, Archiven und Museen ermöglicht den einfachen
+Online-Zugang zu einer Fülle historischer und kultureller Materialien.
+Dadurch können Forschende Quellen von überall auf der Welt studieren und
+ihr Arbeitsfeld deutlich erweitern.</p>
+</div>
+<div class="section level4">
+<h4 id="veränderungen-in-der-wissensvermittlung-und-auswirkungen-auf-lehre-und-lernen">2. Veränderungen in der Wissensvermittlung und Auswirkungen auf
+Lehre und Lernen<a class="anchor" aria-label="anchor" href="#ver%C3%A4nderungen-in-der-wissensvermittlung-und-auswirkungen-auf-lehre-und-lernen"></a>
+</h4>
+<p>Digitale Plattformen haben den Zugang zu Forschung demokratisiert,
+indem sie Open-Access-Publikationen ermöglichen. So können
+Wissenschaftlerinnen und Wissenschaftler ihre Arbeiten einem globalen
+Publikum zugänglich machen, ohne die Barrieren der
+Printveröffentlichung. Digitale Geisteswissenschaftsprojekte verbinden
+oft Text, Audio, Video und interaktive Elemente und schaffen so
+dynamischere und ansprechendere Formen wissenschaftlicher Arbeit.
+Dadurch verändert sich die Art und Weise, wie Forschung präsentiert und
+rezipiert wird – weg von traditionellen Fachartikeln oder Monografien.
+Digitale Plattformen fördern zudem interaktivere und kollaborative
+Lernformen.</p>
+</div>
+<div class="section level4">
+<h4 id="erhalt-des-kulturellen-erbes">3. Erhalt des kulturellen Erbes<a class="anchor" aria-label="anchor" href="#erhalt-des-kulturellen-erbes"></a>
+</h4>
+<p>Die Digitalisierung unterstützt den Erhalt des kulturellen Erbes,
+indem sie digitale Kopien von physischen Artefakten, Texten und
+Kulturerbe-Orten erstellt. So bleibt ihr digitales Abbild erhalten,
+selbst wenn die Originale im Laufe der Zeit verfallen.</p>
+</div>
+<div class="section level4">
+<h4 id="philosophische-und-ethische-implikationen">4. Philosophische und ethische Implikationen<a class="anchor" aria-label="anchor" href="#philosophische-und-ethische-implikationen"></a>
+</h4>
+<p>Der digitale Wandel in den Geisteswissenschaften wirft wichtige
+Fragen zur Natur von Wissen, Urheberschaft und Authentizität im
+digitalen Zeitalter auf. Wissenschaftlerinnen und Wissenschaftler
+hinterfragen kritisch, wie digitale Werkzeuge unser Verständnis von
+Kultur, Identität und Geschichte beeinflussen. Digitale Werkzeuge können
+Wissen demokratisieren, aber je nach Gestaltung und Anwendung auch
+bestehende Vorurteile verstärken.</p>
+</div>
+<div class="section level4">
+<h4 id="interdisziplinäre-zusammenarbeit">5. Interdisziplinäre Zusammenarbeit<a class="anchor" aria-label="anchor" href="#interdisziplin%C3%A4re-zusammenarbeit"></a>
+</h4>
+<p>Die Digital Humanities sind von Natur aus interdisziplinär: Sie
+bringen Geisteswissenschaftler<em>innen mit Informatiker</em>innen und
+Datenanalyst*innen zusammen. Diese Zusammenarbeit eröffnet neue
+Forschungsfragen, Methoden und Erkenntnisformen.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<p>Bereiche, in denen die Digitalisierung eine wichtige Rolle
+spielt:</p>
+<ul>
+<li>Forschungsmethoden</li>
+<li>Wissensvermittlung</li>
+<li>Kulturerbe</li>
+<li>Zusammenarbeit</li>
+<li>Erhaltung / Bewahrung</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</section></section><section id="aio-data"><p>Content from <a href="data.html">Daten</a></p>
+<hr>
+<p>Last updated on 2025-07-17 |
 
         <a href="https://github.com/HERMES-DKZ/metadaten/edit/main/episodes/data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 40 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
+<div class="Fragen">
 <ul>
-<li>What is data in the humanities?</li>
-<li>What are the distinctions between different types of data?</li>
+<li>Was sind Daten in den Geisteswissenschaften?</li>
+<li>Was sind die Unterschiede zwischen verschiedenen Arten von
+Daten?</li>
+</ul>
+</div>
+<div class="Ziele">
+<p>Nach Abschluss dieser Lerneinheit sollten die Teilnehmenden in der
+Lage sein</p>
+<ul>
+<li>zwischen analogen Daten, digitalisierten Daten und genuin digitalen
+(born-digital) Daten unterscheiden,</li>
+<li>verstehen, wie Daten in der geisteswissenschaftlichen Forschung
+kategorisiert, erhoben und genutzt werden,</li>
+<li>die Auswirkungen verschiedener Datentypen auf unterschiedliche
+Forschungsmethoden und Forschungsergebnisse untersuchen.</li>
+</ul>
+</div>
+<section><h2 class="section-heading" id="datentypen">Datentypen<a class="anchor" aria-label="anchor" href="#datentypen"></a>
+</h2>
+<hr class="half-width">
+<p><strong>Analoge Daten:</strong> Analoge Daten entstehen in
+physischen, nicht-digitalen Formaten wie handschriftliche Dokumenten,
+Fotografien oder materielle Objekten.</p>
+<p><strong>Digitalisierte Daten:</strong> Digitalisierte Daten sind
+ehemals analoge Informationen, die durch Verfahren wie Scannen,
+Transkribieren oder Kodieren in digitale Formate überführt wurden. Diese
+Transformation erweitert nicht nur die Zugänglichkeit, sondern
+ermöglicht auch die Anwendung digitaler Analysemethoden. Ein
+differenziertes Verständnis digitalisierter Daten ist zentral, um
+nachvollziehen zu können, wie analoge Ressourcen für digitale
+Nutzungskontexte aufbereitet und angepasst werden.</p>
+<p><strong>Born-Digital Daten (Genuin digitale Daten):</strong> Genuin
+digitale Daten entstehen direkt in digitalen Umgebungen und existieren
+ausschließlich in diesen Formaten. Dazu zählen etwa Datenbanken,
+digitale Texte, audiovisuelle Medien oder computergenerierte Inhalte,
+die nie in physischer Form vorlagen. Diese Datenform steht exemplarisch
+für eine digital geprägte Forschungspraxis, in der Daten in Echtzeit
+erzeugt, verarbeitet und verbreitet werden – und die damit neue
+Möglichkeiten, aber auch neue Anforderungen für die
+geisteswissenschaftliche Arbeit schafft.</p>
+<div id="übung" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="übung" class="callout-inner">
+<h3 class="callout-title">Übung</h3>
+<div class="callout-content">
+<p><strong>Analog vs. Digital – Was sehen wir eigentlich?</strong></p>
+<p>Diese Übung lädt dazu ein, die Unterschiede zwischen analogen und
+digitalen Daten am Beispiel eines Objekts des kulturellen Erbes zu
+erkunden. Im Mittelpunkt steht die Frage, was geschieht, wenn physische
+Kunstwerke durch digitale Medien zugänglich gemacht werden. Dazu
+verwenden wir beispielhaft Daten aus der Sammlung des Metropolitan
+Museum of Modern Art.</p>
+<p>Leitfrage</p>
+<p>Mit welcher Art von Daten arbeiten wir, wenn wir mit digitalisierten
+Kulturobjekten interagieren? Und was passiert mit den Eigenschaften
+analoger Objekte, wenn sie in digitale Repräsentationen überführt
+werden?</p>
+<p>Schritt 1: Beobachtung</p>
+<p>Wähle ein digitales Bild eines Objekts aus der Online-Sammlung des
+Metropolitan Museum of Modern Art (oder einem anderen digitalen
+Museumsresportal). Reflektiere anschließend über die folgenden Fragen:
+Was für ein Objekt ist das im Original? Was genau siehst du auf dem
+Bildschirm – und was bedeutet es, das Objekt als digitale Repräsentation
+zu sehen? Was geht im Vergleich zur direkten Erfahrung mit dem Original
+möglicherweise verloren?</p>
+<p>Schritt 2: Diskussion</p>
+<p>Fragen: Wenn das Original ein analoges (physisches) Kunstwerk ist und
+wir es auf einem Bildschirm betrachten – mit welcher Art von Daten
+arbeiten wir dann eigentlich? Was geschieht mit der Materialität des
+Objekts, wenn es digitalisiert wird? Wie beeinflusst die digitale
+Repräsentation unser Verständnis oder unsere Interpretation? Was
+gewinnen wir durch diese Transformation – und was geht dabei
+verloren?</p>
+<p>Schritt 3: Reflektion</p>
+<p>Überlege dir: Welche Eigenschaften eines Objekts lassen sich nur
+schwer oder gar nicht digital erfassen? Welche digitalen Formate (z. B.
+hochauflösende Bilder, 3D-Modelle, Metadaten) versuchen, diese
+Einschränkungen auszugleichen? Wo begegnest du in deinem eigenen
+Fachgebiet der Transformation vom Analogen zum Digitalen? Und wie
+beeinflusst sie deine Forschung oder Interpretation?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Output
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>Wir betrachten das Gemälde auf einem Computerbildschirm. Alles, was
+wir sehen, wird digital angezeigt. Obwohl das ursprüngliche Objekt
+analog ist, erfolgt unsere Interaktion ausschließlich digital. Das
+Gemälde wurde digitalisiert – also in Daten umgewandelt (z. B. Pixel,
+Metadaten), die von Computern gespeichert, verarbeitet, angezeigt,
+geteilt, durchsucht und bearbeitet werden können. Wir interagieren nicht
+mit dem analogen Objekt selbst, sondern mit seiner digitalen
+Repräsentation.</p>
+<p>Diese Transformation ermöglicht einen breiteren Zugang, bringt aber
+auch Einschränkungen mit sich: Aspekte wie Maßstab, Materialität oder
+tatsächliche Farbwirkung können verloren gehen – wir erleben lediglich
+eine digitale Annäherung. Das Verständnis dieser Transformation ist
+zentral für den Umgang mit Daten in den Digital Humanities und
+entscheidend für die Frage, wie unser Wissen über Kultur durch das
+digitale Medium geprägt wird.</p>
+</div>
+</div>
+</div>
+</div>
+<p>Mit analogen Daten meinen wir die physischen Artefakte im Museum. Die
+Sammlung des Museums umfasst zahlreiche materielle Objekte wie
+Skulpturen, Gemälde und andere Artefakte, die ausschließlich in ihrer
+ursprünglichen, nicht-digitalen Form existieren. So enthält zum Beispiel
+die Sammlung altägyptischer Kunst im Metropolitan Museum etwa 30.000
+Objekte – wie hier zu sehen ist <a href="https://www.metmuseum.org/about-the-met/collection-areas/egyptian-art" class="external-link">here</a>.</p>
+<p>Mit digitalisierten Daten meinen wir zum Beispiel digitalisierte
+Lichtbilder von Objekten. Hochauflösende Fotografien von Kunstwerken und
+Artefakten – etwa Gemälden, Skulpturen oder archäologischen Fundstücken
+– wurden digitalisiert, um sie für Forschung und Öffentlichkeit
+zugänglich zu machen. Diese Bilder sind über die Online-Datenbank der
+Museumssammlung abrufbar.</p>
+<p>Born-Digital Daten sind unter anderem <a href="https://www.metmuseum.org/art/collection/search/302616" class="external-link">born-digital
+photographs or videos</a>, sowie digitale Aufzeichnungen und Datenbanken
+der Museumssammlungen, einschließlich Metadaten und detaillierter
+Beschreibungen von Kunstwerken. Die Archive des Museums enthalten
+ebenfalls born-digital Materialien wie Ausstellungsdokumentationen,
+kuratorische und administrative Unterlagen, die digital erstellt und
+gescheichrt wurden.</p>
+<p><strong>Möglichkeiten und Herausforderungen, die mit den einzelnen
+Datentypen verbunden sind, sowie deren Wirkungen innerhalb des größeren
+Forschungssystems.:</strong></p>
+<p>Diese Datentypen werden auf unterschiedliche Weise genutzt und prägen
+sowie unterstützen jeweils spezifische Forschungspraktiken.</p>
+<p><strong>Analoge Daten</strong>, vorhanden in Magazinen, Archiven oder
+physischen Sammlungen, bilden die Grundlage für historische und
+materialbezogene Studien und ermöglichen eine unmittelbare
+Auseinandersetzung mit den Originalquellen. Ihre haptischen und
+kontextuellen Eigenschaften sind für das Verständnis von Provenienz und
+Authentizität von unschätzbarem Wert. Allerdings sind diese Daten häufig
+nur eingeschränkt zugänglich.</p>
+<p><strong>Digitalisierte Daten</strong> verändern die Zugänglichkeit
+einer physischen Quellen grundlegend und ermöglichen den
+ortsunabhängigen Zugriff über digitale Plattformen und Repositorien.
+Dieser Wandel demokratisiert die Forschung, indem er geografische
+Barrieren überwindet und vergleichende Studien erleichtert. Darüber
+hinaus beinhaltet die Digitalisierung häufig Metadaten und
+Suchfunktionen, die die Auffindbarkeit und Nutzbarkeit analoger Quellen
+erheblich verbessern. Die Digitalisierung wirft jedoch Bedenken
+hinsichtlich der Datenintegrität, eines möglichen Verlusts von Kontext
+sowie einer bevorzugten Behandlung bestimmter Sammlungen gegenüber
+anderen auf.</p>
+<p><strong>Born-digital data</strong> ist, im Gegensatz dazu, vornherein
+dynamisch angelegt und für die Integration in digitale Umgebungen
+konzipiert. Sie fördert kollaborative und interdisziplinäre Forschung,
+da sie in Echtzeit geteilt, aktualisiert und analysiert werden kann.
+Ihre rechnergestützten Potenziale – etwa für maschinelles Lernen oder
+Datenvisualisierung – eröffnen neue Wege insbesondere in den Digital
+Humanities, der Data Science oder der Netzwerkanalyse. Gleichzeitig
+bringt sie Herausforderungen mit sich: etwa hinsichtlich der
+Langzeitarchivierung, des Datenschutzes oder der Ephemerität digitaler
+Formate.</p>
+<p>Zudem interagieren diese Datentypen häufig in hybriden
+Forschungsabläufen. So können beispielsweise digitalisierte analoge
+Daten durch rechnergestützte Analysen gemeinsam mit born-digital-Daten
+angereichert werden, wodurch neue Erkenntnisebenen entstehen. Ebenso
+kann born-digitales Material Anlass geben, analoge Quellen neu zu
+untersuchen – ein zyklischer Prozess der Entdeckung und Neubewertung.
+Dieses Zusammenspiel verdeutlicht die sich wandelnde Landschaft der
+Wissensproduktion, in der verschiedene Datentypen zusammenwirken, um
+komplexe Forschungsfragen zu adressieren.</p>
+<div id="outcome" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="outcome" class="callout-inner">
+<h3 class="callout-title">Outcome</h3>
+<div class="callout-content">
+<p>Wie unterstützen institutionelle Infrastrukturen wie Bibliotheken,
+Archive und Datenzentren diese Prozesse und wie meistern sie die
+Herausforderung, Bewahrung, Zugang und Innovation in Einklang zu
+bringen?</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>Analoge Daten werden in Magazinen, Archiven oder physischen
+Sammlungen aufbewahrt.</li>
+<li>Digitalisierte Daten sind eine Umwandlung analoger Daten in digitale
+Form.</li>
+<li>Born-digital data haben keine analoge Representation.</li>
 </ul>
 </div>
 </div>
 </div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<p>After completing this episode, participants should be able to</p>
-<ul>
-<li>differentiate between analogue data, digitised data, and
-born-digital data,</li>
-<li>understand how data is categorized, collected, and utilized within
-humanities research,</li>
-<li>explore the implications of different data types for different
-research methods and outcomes.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div></section><section id="aio-metadata"><p>Content from <a href="metadata.html">Metadata</a></p>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-metadata"><p>Content from <a href="metadata.html">Metadaten</a></p>
 <hr>
-<p>Last updated on 2025-05-22 |
+<p>Last updated on 2025-07-17 |
 
         <a href="https://github.com/HERMES-DKZ/metadaten/edit/main/episodes/metadata.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
@@ -498,8 +845,8 @@ research methods and outcomes.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is metadata?</li>
-<li>What are major types of metadata?</li>
+<li>Was sind Metadaten?</li>
+<li>Was sind die wichtigsten Arten von Metadaten?</li>
 </ul>
 </div>
 </div>
@@ -508,19 +855,192 @@ research methods and outcomes.</li>
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<p>After completing this episode, participants should be able to</p>
+<p>Nach Abschluss dieser Einheit sollten die Teilnehmenden in der Lage
+sein</p>
 <ul>
-<li>understand metadata basics,</li>
-<li>differentiate metadata from data,</li>
-<li>differentiate the major types of metadata,</li>
-<li>apply metadata concepts to practical challenges,</li>
-<li>recognise the role of metadata in the humanities.</li>
+<li>die Grundlagen von Metadaten zu verstehen,</li>
+<li>Metadaten von eigentlichen Daten zu unterscheiden,</li>
+<li>die wesentlichen Arten von Metadaten zu differenzieren,</li>
+<li>Metadatenkonzepte auf praktische Aufgaben anzuwenden,</li>
+<li>die Bedeutung von Metadaten in den Geisteswissenschaften zu
+erkennen.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-</div></section><section id="aio-metadataformats"><p>Content from <a href="metadataformats.html">Speichern und Verarbeiten von Metadaten</a></p>
+</div>
+<section><h2 class="section-heading" id="metadaten-typen-funktionen-und-kontexte">Metadaten: Typen, Funktionen und Kontexte<a class="anchor" aria-label="anchor" href="#metadaten-typen-funktionen-und-kontexte"></a>
+</h2>
+<hr class="half-width">
+<p>Metadaten sind Daten, die andere Daten beschreiben. Metadaten liefern
+aussagekräftige Informationen, die das Auffinden, Identifizieren,
+Verstehen, Verarbeiten und Aufbewahren der Primärdaten erleichtern.</p>
+<p>Daten selbst können strukturiert oder „roh“ sein, d. h. unverarbeitet
+oder unstrukturiert. Im Gegensatz dazu sind Metadaten immer verarbeitet
+und strukturiert und so konzipiert, dass sie sowohl für Menschen als
+auch für Maschinen verständlich sind. Metadaten erfüllen einen
+funktionalen Zweck, z. B. die Organisation von Materialien in einem
+Katalog oder die Ermöglichung der Suche und des Abrufs von Ressourcen in
+einer Datenbank. Sie helfen dabei, wesentliche Eigenschaften von Daten
+zu vermitteln, wie z. B. deren Herkunft, Zeitraum und geografische
+Abdeckung.</p>
+<p>Es gibt drei <strong>Haupttypen von Metadaten</strong>:</p>
+<p><strong>Deskriptive Metadaten</strong> beschreiben eine Ressource für
+Zwecke wie Auffindbarkeit und Identifizierung. Sie können Elemente wie
+Titel, Autor, Erstellungsdatum, Medium, Abmessungen und Schlüsselwörter
+enthalten.</p>
+<p>Deskriptive Metadaten sind entscheidend für das Auffinden und
+Identifizieren von Ressourcen wie Büchern, Zeitschriftenartikeln oder
+digitalen Archiven in den Geisteswissenschaften, für die Katalogisierung
+und Analyse von Kunstwerken in Museumsdatenbanken oder
+wissenschaftlichen Studien und unterstützen Historiker*innen beim
+Auffinden und Studieren von Primärquellen.</p>
+<p><strong>Strukturele Metadaten</strong> geben Auskunft darüber, wie
+zusammengesetzte Objekte aufgebaut sind bzw. wie ihre einzelnen
+Bestandteile miteinander verknüpft sind.</p>
+<p>Zum Beispiel definiert die strukturelle Metadatenbeschreibung eines
+digitalisierten mittelalterlichen Manuskripts in einem Online-Archiv die
+Hierarchie und Organisation des Manuskripts:</p>
+<ul>
+<li>Seitenreihenfolge (z.B., Folio 1 recto, Folio 1 verso)</li>
+<li>Beziehungen zwischen Abschnitten (z. B. Kapitel, Randbemerkungen,
+Glossen)</li>
+<li>Verknüpfungen zwischen Text und entsprechenden Abbildungen, etwa
+Buchmalereien oder Annotationen.</li>
+</ul>
+<p><strong>Administrative Metadaten</strong> liefern Informationen, die
+für die Verwaltung einer Ressource erforderlich sind – etwa wann und wie
+sie erstellt wurde, welchen Dateityp sie hat, weitere technische Angaben
+sowie Informationen darüber, wer Zugriff darauf hat. Es gibt mehrere
+Unterkategorien administrativer Metadaten, darunter:</p>
+<p>− Rechteverwaltungsmetadaten, die sich mit Urheber- und
+Nutzungsrechten befassen − Metadaten zur Erhaltung, die Informationen
+zur Archivierung und langfristigen Bewahrung einer Ressource
+enthalten.</p>
+<p>Administrative Metadaten sind entscheidend für das Management des
+Lebenszyklus von Ressourcen. So informiert etwa die Rechteverwaltung
+darüber, ob ein/eine Forscher/Forscherin ein Bild rechtlich in einer
+Publikation verwenden darf, während Erhaltungsmetadaten digitale
+Archivierungsstrategien unterstützen, um fragile Manuskripte langfristig
+zu sichern.</p>
+<div id="challenge-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-1" class="callout-inner">
+<h3 class="callout-title">Challenge 1:</h3>
+<div class="callout-content">
+<p>Gehe noch einmal zu den Online-Ressourcen zurück. Finde die Daten,
+auf die sich die Metadaten beziehen. Kannst du feststellen, um welche
+Art von Metadaten es sich handelt?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Output
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>Die in der Online-Sammlung des Met Museum durchsuchbaren Objekte
+enthalten in erster Linie beschreibende Metadaten wie Titel, Urheber,
+Entstehungsdatum und Maße. Administrative Metadaten beschränken sich
+weitgehend auf die Inventarnummer, wobei zusätzliche – mitunter sensible
+– administrative (Meta-)Daten möglicherweise nicht veröffentlicht
+werden. Strukturelle Metadaten sind in der Regel nur in geringem Umfang
+vorhanden, obwohl sich viele gut dokumentierte Kunst- und Kulturobjekte
+durchaus für eine detaillierte strukturelle Erfassung eignen würden. Die
+Erstellung solcher Metadaten erfordert jedoch eine umfassende
+Bearbeitung, die oft nicht praktikabel ist. Institutionen konzentrieren
+sich daher meist auf eine grundlegende Erschließung mit minimalen
+Metadaten; eine vertiefte Katalogisierung erfolgt häufig nur im Rahmen
+spezifischer Projekte.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="challenge-2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-2" class="callout-inner">
+<h3 class="callout-title">Challenge 2:</h3>
+<div class="callout-content">
+<p>Ist das Buch „Alice’s Adventures in Wonderland“ („Alice im
+Wunderland“) Daten oder Metadaten?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Output
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>Es hängt vom Kontext ab, ob es als Daten (das Buch selbst) oder als
+Metadaten (der Titel in einem Bibliothekskatalog) betrachtet wird.</p>
+</div>
+</div>
+</div>
+</div>
+<p>Die Unterscheidung zwischen Daten und Metadaten hängt oft vom Kontext
+ab, in dem die Information verwendet wird. Daten und Metadaten sind
+relative Begriffe – was in einem Zusammenhang als „Daten“ dient, kann in
+einem anderen als „Metadaten“ fungieren.</p>
+<p>Zum Beispiel wird der Text von „Alice’s Adventures in Wonderland“ –
+also seine Worte, Kapitel und Erzählstruktur – in der Regel als Daten
+betrachtet, wenn der Inhalt, die Themen oder sprachliche Merkmale
+analysiert werden. Der Titel „Alice’s Adventures in Wonderland“ hingegen
+gilt im Kontext der Katalogisierung als Metadatum. In einem
+Bibliothekskatalog ist der Titel Teil eines strukturierten
+Metadatensystems, das dazu dient, das Buch zu beschreiben, zu ordnen und
+auffindbar zu machen – gemeinsam mit anderen Metadaten wie Autor,
+Erscheinungsdatum oder ISBN.</p>
+<p>Diese Relativität unterstreicht, wie wichtig es ist, die
+unterschiedlichen Ebenen zu verstehen, auf denen wir mit Informationen
+interagieren. Im Kern gilt:</p>
+<ul>
+<li><strong>Daten beziehen sich auf den eigentlichen Untersuchungs- oder
+Nutzungsgegenstand (z. B. den vollständigen Text des
+Buches).</strong></li>
+<li><strong>Metadaten sind Informationen über diese Daten; sie dienen
+dazu, sie zu beschreiben, einzuordnen oder ihre Organisation und
+Auffindbarkeit zu erleichtern (z. B. Titel, Autor oder
+Genrezuordnung).</strong></li>
+</ul>
+<p>Dieses Zusammenspiel von Daten und Metadaten verdeutlicht die
+vielschichtige Natur des Informationsmanagements und die Notwendigkeit
+von Präzision im Umgang mit beiden.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>Beschreibende Metadaten beschreiben eine Ressource zu bestimmten
+Zwecken.</li>
+<li>Strukturelle Metadaten geben an, wie zusammengesetzte Objekte
+aufgebaut sind.</li>
+<li>Administrative Metadaten liefern Informationen zur Verwaltung einer
+Ressource.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-metadataformats"><p>Content from <a href="metadataformats.html">Speichern und Verarbeiten von Metadaten</a></p>
 <hr>
 <p>Last updated on 2025-06-30 |
 
@@ -584,7 +1104,7 @@ kann?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Antwort </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Eine einfache Möglichkeit stellen die Tabellenblätter in einem
 Tabellenkalkulationsprogramm dar.</p>
@@ -631,7 +1151,7 @@ in einem Tabellenkalkulationsprogramm Ihrer Wahl.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Lösung </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul>
 <li>Beim Öffnen der CSV-Datei werden mehrere Parameter abgefragt.</li>
@@ -657,7 +1177,7 @@ und weitergegeben werden kann.</li>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Eine mögliche Quelle für Fehler und Probleme, die auftreten können
 und diskutiert werden sollten, sind die Trennzeichen. Es wurde bewusst
@@ -1512,8 +2032,8 @@ any links that you are not going to use.
   "url": "https://HERMES-DKZ.github.io/metadaten/instructor/aio.html",
   "identifier": "https://HERMES-DKZ.github.io/metadaten/instructor/aio.html",
   "dateCreated": "2025-05-22",
-  "dateModified": "2025-07-15",
-  "datePublished": "2025-07-15"
+  "dateModified": "2025-07-17",
+  "datePublished": "2025-07-17"
 }
 
   </script><script>
