@@ -4,7 +4,7 @@ title: Setup
 
 ## Datensätze
 
-Laden Sie die Zip-Datei mit den [Daten](/episodes/data/artworks_data.zip) herunter und speichern Sie diese an einem geeigneten Ort wie etwa dem Desktop. Entpacken Sie die Datei.   
+Laden Sie die Zip-Datei mit den [Daten](https://github.com/HERMES-DKZ/metadaten/blob/main/episodes/data/artworks_data.zip) herunter und speichern Sie diese an einem geeigneten Ort wie etwa dem Desktop. Entpacken Sie die Datei.   
 
 Die Daten wurden folgenden Projekten bzw. Datensätzen entnommen und für diese Lektion modifiziert:  
 

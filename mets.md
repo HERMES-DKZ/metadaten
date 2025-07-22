@@ -48,8 +48,7 @@ Die grundlegende XML-Syntax einer METS-Datei sieht folgendermaßen aus:
 </mets>
 ```   
 
-Beispiele und Erklärungen zu den einzelnen Sektionen finden Sie auf im [Tutorial zum Standard](https://www.loc.gov/standards/mets/METSOverview.v2.html
-).    
+Beispiele und Erklärungen zu den einzelnen Sektionen finden Sie im [Tutorial zum Standard](https://www.loc.gov/standards/mets/METSOverview.v2.html).    
 
 ::: challenge
 
@@ -134,5 +133,6 @@ Die [Webseite der Library of Congress](https://www.loc.gov/standards/mets/mets-e
 :::
 
 ::: keypoints
-METS dient als Container zur Strukturierung von Metadaten. Die Metadatenfelder selber werden meist in einem spezifischen Standard erfasst und dann in die METS-Struktur integriert. Dazu gehören Standards wie Cublin Core, MODS oder MARC.
+- METS dient als Container zur Strukturierung von Metadaten.  
+- Die Metadatenfelder selber werden meist in einem spezifischen Standard erfasst und dann in die METS-Struktur integriert. Dazu gehören Standards wie Cublin Core, MODS oder MARC.
 :::
