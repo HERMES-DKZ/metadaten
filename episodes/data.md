@@ -80,7 +80,7 @@ Mit analogen Daten meinen wir die physischen Artefakte im Museum. Die Sammlung d
 
 Mit digitalisierten Daten meinen wir zum Beispiel digitalisierte Lichtbilder von Objekten. Hochauflösende Fotografien von Kunstwerken und Artefakten – etwa Gemälden, Skulpturen oder archäologischen Fundstücken – wurden digitalisiert, um sie für Forschung und Öffentlichkeit zugänglich zu machen. Diese Bilder sind über die Online-Datenbank der Museumssammlung abrufbar.
 
-Born-Digital Daten sind unter anderem [born-digital photographs or videos](https://www.metmuseum.org/art/collection/search/302616), sowie digitale Aufzeichnungen und Datenbanken der Museumssammlungen, einschließlich Metadaten und detaillierter Beschreibungen von Kunstwerken. Die Archive des Museums enthalten ebenfalls born-digital Materialien wie Ausstellungsdokumentationen, kuratorische und administrative Unterlagen, die digital erstellt und gescheichrt wurden.
+Born-digital Daten sind unter anderem [born-digital photographs or videos](https://www.metmuseum.org/art/collection/search/302616), sowie digitale Aufzeichnungen und Datenbanken der Museumssammlungen, einschließlich Metadaten und detaillierter Beschreibungen von Kunstwerken. Die Archive des Museums enthalten ebenfalls born-digital Materialien wie Ausstellungsdokumentationen, kuratorische und administrative Unterlagen, die digital erstellt und gescheichrt wurden.
 
 **Möglichkeiten und Herausforderungen, die mit den einzelnen Datentypen verbunden sind, sowie deren Wirkungen innerhalb des größeren Forschungssystems.:**
 
