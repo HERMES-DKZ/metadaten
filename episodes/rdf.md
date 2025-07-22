@@ -7,7 +7,7 @@ exercises: 10
 
 - Was ist Resource Description Framework (RDF)?
 - Wie können Informationen durch Triples und URI miteinander verlinkt werden?  
-:::
+:::  
 
 ::: objectives
 Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein
@@ -15,7 +15,7 @@ Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein
 - das Konzept des Resource Description Framework (RDF) zu beschreiben,
 - die Elemente eines Triples zu benennen,
 - URI für RDF-Triple zu finden und RDF-Statements zu kreieren. 
-:::  
+:::    
 
 RDF wurde ursprünglich vom World Wide Web Consortium (W3C) als Standard für die Beschreibung von Metadaten konzipiert. 
 Es gilt heute als ein grundlegender Baustein des Semantic Web und ähnelt den klassischen Methoden 
@@ -27,7 +27,7 @@ Daten in RDF sind Aussagen über Ressourcen. Diese Aussagen werden als Tripel mo
 ```xml
 <subject/><predicate/><object/>
 <artist>Frida Kahlo></artist><creator>is creator of</creator><artwork>The two fridas</artwork>
-```  
+```    
 
 Das Subjekt und das Prädikat sind immer Ressourcen. Das bedeutet, dass es sich um Entitäten mit einem erweiterten Satz an Informationen handelt. Das Objekt kann entweder eine Ressource oder ein Literal sein. Literale sind Zeichenketten, die anhand eines bestimmten Datentyps wie boolesche Werte, Zahlen oder Daten interpretiert werden können. Eindeutige Bezeichner (z.B. URI) werden zur Identifizierung von Ressourcen verwendet.  
 
@@ -37,13 +37,13 @@ Das Prädikat wird ebenfalls durch einen URI definiert. Dies ist z.B. möglich, 
 
 ```
 <https://www.wikidata.org/wiki/Q5588><http://purl.org/dc/terms/creator><https://www.wikidata.org/wiki/Q3232010>
-```   
+```     
 
 Dieses Beispiel drückt dasselbe aus, wie das vorherige Beispiel: Frida Kahlo ist die Schöpferin von "Die zwei Fridas". Dazu werden die Identifikatoren von Wikidata und Dublin Core verwendet. 
 
 Technisch gesehen kann RDF in mehreren Formaten implementiert werden, darunter JSON-LD und RDF/XML - zwei spezielle Formate von JSON und XML für RDF.  
 
-:: challenge
+::: challenge
 
 ### Übung
 
