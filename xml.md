@@ -143,7 +143,7 @@ XML-Dokumente, die alle diese Regeln erfüllen, werden als „wohlgeformte“ XM
 
 ### Übung
 
-Öffnen Sie die Datei [moma_artworks.csv file](https://github.com/HERMES-DKZ/metadaten/blob/main/episodes/data/moma_artworks.csv). Wählen Sie den Datensatz eines Werkes aus und schreiben Sie die Daten in XML. 
+Öffnen Sie die Datei "moma_artworks.csv". Wählen Sie den Datensatz eines Werkes aus und schreiben Sie die Daten in XML. 
 
 ::: hint
 
