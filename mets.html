@@ -260,12 +260,19 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         7. Metadata Encoding &amp; Transmission Standard (METS)
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#mets-metadata-encoding-transmission-standard">METS Metadata Encoding &amp; Transmission Standard</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -346,7 +353,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Metadata Encoding &amp; Transmission Standard (METS)</h1>
-        <p>Last updated on 2025-07-02 |
+        <p>Last updated on 2025-07-22 |
 
         <a href="https://github.com/HERMES-DKZ/metadaten/edit/main/episodes/mets.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -385,14 +392,192 @@ benennen.</li>
 </div>
 </div>
 </div>
+<section><h2 class="section-heading" id="mets-metadata-encoding-transmission-standard">METS Metadata Encoding &amp; Transmission Standard<a class="anchor" aria-label="anchor" href="#mets-metadata-encoding-transmission-standard"></a></h2>
+<hr class="half-width"><p>METS ist ein von der Library of Congress bereitgestelltes XML-Format,
+das über XML Schema definiert wurde, um digitale Sammlungen von Objekten
+mit Metadaten zu beschreiben. Der Standard legt keinen Namen oder eine
+Reihenfolge für die Metadatenfelder selbst fest, sondern dient dazu,
+diese in einer standardisierten Weise zu strukturieren. Er wird häufig
+für die Langzeitarchivierung verwendet und unterstützt das digitale
+Sammlungsmanagement. Es lassen sich Informationen über die Herkunft
+digitaler Objekte ebenso abbilden, wie Verwaltungs- oder
+Strukturinformationen zur Sammlung.</p>
+<p>Die Metadaten werden in eine von sieben Sektionen eingeordnet:</p>
+<ol style="list-style-type: decimal"><li>METS Header: Metadaten, die das METS-Dokument selbst beschreiben,
+einschließlich Informationen wie Ersteller oder Herausgeber des
+METS-Dokuments usw.</li>
+<li>Descriptive Metadata Section: Der Abschnitt enthält die
+Erschließungsdaten des Objekts. Hier kann auf beschreibende Metadaten
+außerhalb des METS-Dokuments verwiesen werden oder er kann intern
+eingebettete beschreibende Metadaten enthalten, oder beides.</li>
+<li>Administrative Metadata Section: Dieser Abschnitt enthält
+Informationen darüber, wie Dateien erstellt und gespeichert wurden,
+Urheberrechte oder auch Metadaten über das ursprüngliche Quellobjekt,
+von dem das digitalisierte Objekt stammt.</li>
+<li>File Section: Die Datei-Sektion listet alle Dateien auf, die zum
+digitalen Objekt gehören, wie etwa verschiedene Versionen von
+Digitalisaten.</li>
+<li>Structural Map: Sie skizziert eine hierarchische Struktur des
+digitalen Objekts.</li>
+<li>Structural Links: Hier werden alle Hyperlinks gelistet, wie sie etwa
+für die Archivierung von Webseiten unbedingt notwendig sind.</li>
+<li>Behavioral Section: Diese Sektion kann verwendet werden, um
+ausführbare Verhaltensweisen oder Funktionalitäten mit dem Inhalt des
+METS-Objekts zu verknüpfen.</li>
+</ol><p>Die grundlegende XML-Syntax einer METS-Datei sieht folgendermaßen
+aus:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a>&lt;<span class="kw">mets</span>&gt;</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a> &lt;<span class="kw">metsHdr</span>/&gt;<span class="co">&lt;!-- METS Header --&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a> &lt;<span class="kw">dmdSec</span>/&gt;<span class="co">&lt;!-- Descriptive Metadata Section --&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a> &lt;<span class="kw">amdSec</span>/&gt;<span class="co">&lt;!-- Administrative Metadata Section --&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a> &lt;<span class="kw">fileSec</span>/&gt;<span class="co">&lt;!-- File Section --&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a> &lt;<span class="kw">structMap</span>/&gt;<span class="co">&lt;!-- Structural Map --&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a> &lt;<span class="kw">structLink</span>/&gt;<span class="co">&lt;!-- Structural Links --&gt;</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a> &lt;<span class="kw">behaviorSec</span>/&gt;<span class="co">&lt;!-- Behavioral Section --&gt;</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a>&lt;/<span class="kw">mets</span>&gt;</span></code></pre>
+</div>
+<p>Beispiele und Erklärungen zu den einzelnen Sektionen finden Sie auf
+im <a href="https://www.loc.gov/standards/mets/METSOverview.v2.html" class="external-link">Tutorial
+zum Standard</a>.</p>
+<div id="übung-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="übung-1" class="callout-inner">
+<h3 class="callout-title">Übung 1</h3>
+<div class="callout-content">
+<p>Verwenden Sie das Beispiel aus der XML-Übung und ordnen Sie die
+Metadatenelemente der Struktur des METS-Standards zu.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Lösung
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Eine Lösung zum ersten Datensatz aus den Beispieldaten der XML-Übung
+kann so aussehen:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>&lt;<span class="kw">mets</span>&gt;</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a> &lt;<span class="kw">metsHdr</span>&gt;</span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>  &lt;<span class="kw">creator</span>&gt;Moma&lt;/<span class="kw">creator</span>&gt;</span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>  &lt;<span class="kw">editor</span>&gt;me&lt;/<span class="kw">editor</span>&gt;</span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>  &lt;<span class="kw">creationdate</span>&gt;today&lt;/<span class="kw">creationdate</span>&gt;</span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a> &lt;/<span class="kw">metsHdr</span>&gt;</span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a> &lt;<span class="kw">dmdSec</span>&gt;</span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>  &lt;<span class="kw">artwork</span>&gt;</span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>    &lt;<span class="kw">title</span>&gt;Green-Blue-Red (for Parkett no. 35)&lt;/<span class="kw">title</span>&gt;</span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a>    &lt;<span class="kw">date</span>&gt;1993&lt;/<span class="kw">date</span>&gt;</span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a>    &lt;<span class="kw">medium</span>&gt;Multiple of oil on canvas&lt;/<span class="kw">medium</span>&gt;</span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a>    &lt;<span class="kw">dimensions</span>&gt;composition: 11 7/16 × 15 3/4<span class="dv">&amp;quot;</span> (29 × 40 cm); sheet: 11 3/4 × 15 3/4<span class="dv">&amp;quot;</span> (29.9 × 40 cm)&lt;/<span class="kw">dimensions</span>&gt;</span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a>    &lt;<span class="kw">department</span>&gt;Drawings <span class="dv">&amp;amp;</span> Prints&lt;/<span class="kw">department</span>&gt;</span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a>  &lt;<span class="kw">artist</span>&gt;</span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a>    &lt;<span class="kw">name</span>&gt;Gerhard Richter&lt;/<span class="kw">name</span>&gt;</span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a>    &lt;<span class="kw">constituentID</span>&gt;4907&lt;/<span class="kw">constituentID</span>&gt;</span>
+<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a>    &lt;<span class="kw">artistBio</span>&gt;</span>
+<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a>      &lt;<span class="kw">bio</span>&gt;German, born 1932&lt;/<span class="kw">bio</span>&gt;</span>
+<span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a>    &lt;/<span class="kw">artistBio</span>&gt;</span>
+<span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a>    &lt;<span class="kw">nationality</span>&gt;German&lt;/<span class="kw">nationality</span>&gt;</span>
+<span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a>    &lt;<span class="kw">beginDate</span>&gt;1932&lt;/<span class="kw">beginDate</span>&gt;</span>
+<span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a>    &lt;<span class="kw">endDate</span>&gt;0&lt;/<span class="kw">endDate</span>&gt;</span>
+<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a>    &lt;<span class="kw">gender</span>&gt;male&lt;/<span class="kw">gender</span>&gt;</span>
+<span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a>  &lt;/<span class="kw">artist</span>&gt;</span>
+<span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a> &lt;/<span class="kw">dmdSec</span>&gt;   </span>
+<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a>    </span>
+<span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a> &lt;<span class="kw">amdSec</span>&gt;</span>
+<span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a>  &lt;<span class="kw">creditLine</span>&gt;Lillie P. Bliss Collection&lt;/<span class="kw">creditLine</span>&gt;</span>
+<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a>  &lt;<span class="kw">accessionNumber</span>&gt;1.1934&lt;/<span class="kw">accessionNumber</span>&gt;</span>
+<span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a>  &lt;<span class="kw">dateAcquired</span>&gt;1998-03-05&lt;/<span class="kw">dateAcquired</span>&gt;</span>
+<span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a>  &lt;<span class="kw">cataloged</span>&gt;Y&lt;/<span class="kw">cataloged</span>&gt;</span>
+<span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a>  &lt;<span class="kw">objectID</span>&gt;61953&lt;/<span class="kw">objectID</span>&gt;</span>
+<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a> &lt;/<span class="kw">amdSec</span>&gt;</span>
+<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a></span>
+<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a> &lt;<span class="kw">fileSec</span>&gt;</span>
+<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a>  &lt;<span class="kw">url</span>&gt;https://www.moma.org/collection/works/78296&lt;/<span class="kw">url</span>&gt;</span>
+<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a>  &lt;<span class="kw">imageURL</span>&gt;https://www.moma.org/media/W1siZiIsIjQ0NjA2NyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=c6bd692fa0fe0685&lt;/<span class="kw">imageURL</span>&gt;</span>
+<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a>  &lt;<span class="kw">onView</span>&gt;<span class="dv">&amp;quot;</span>MoMA, Floor 2, 2 South<span class="dv">&amp;quot;</span>&lt;/<span class="kw">onView</span>&gt;</span>
+<span id="cb2-40"><a href="#cb2-40" tabindex="-1"></a> &lt;/<span class="kw">fileSec</span>&gt;</span>
+<span id="cb2-41"><a href="#cb2-41" tabindex="-1"></a></span>
+<span id="cb2-42"><a href="#cb2-42" tabindex="-1"></a> &lt;<span class="kw">structMap</span>/&gt;</span>
+<span id="cb2-43"><a href="#cb2-43" tabindex="-1"></a></span>
+<span id="cb2-44"><a href="#cb2-44" tabindex="-1"></a> &lt;<span class="kw">structLink</span>/&gt;</span>
+<span id="cb2-45"><a href="#cb2-45" tabindex="-1"></a></span>
+<span id="cb2-46"><a href="#cb2-46" tabindex="-1"></a> &lt;<span class="kw">behaviorSec</span>/&gt;</span>
+<span id="cb2-47"><a href="#cb2-47" tabindex="-1"></a>  &lt;<span class="kw">onView</span>&gt;&lt;/<span class="kw">onView</span>&gt;</span>
+<span id="cb2-48"><a href="#cb2-48" tabindex="-1"></a></span>
+<span id="cb2-49"><a href="#cb2-49" tabindex="-1"></a>&lt;/<span class="kw">mets</span>&gt;</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="übung-2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="übung-2" class="callout-inner">
+<h3 class="callout-title">Übung 2</h3>
+<div class="callout-content">
+<p>Die <a href="https://www.loc.gov/standards/mets/mets-examples.html" class="external-link">Webseite
+der Library of Congress</a> listet verschiedene Beispiele für die
+Umsetzung des Standards. Schauen Sie sich einige davon an. Was fällt
+Ihnen auf?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Lösung
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<ul><li>In vielen Beispielen wird der MODS-Standard innerhalb der
+METS-Struktur verwendet.</li>
+<li>Die letzten Abschnitte fehlen oft oder enthalten nicht viele
+Daten.</li>
+<li>Die amdSec enthält technische Informationen zu den technischen
+Mitteln der Digitalisierung, wie Kamera oder Scanner und deren
+Einstellungen.</li>
+<li>Die amdSec ist manchmal in weitere Abschnitte unterteilt, z. B.
+Rechte und technische Daten. Es wird also eine weitere Strukturierung
+innerhalb der Sektionen vorgenommen.</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<p>METS dient als Container zur Strukturierung von Metadaten. Die
+Metadatenfelder selber werden meist in einem spezifischen Standard
+erfasst und dann in die METS-Struktur integriert. Dazu gehören Standards
+wie Cublin Core, MODS oder MARC.</p>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="introduction_standards.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="dublincore.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
@@ -450,7 +635,7 @@ any links that you are not going to use.
   "url": "https://HERMES-DKZ.github.io/metadaten/mets.html",
   "identifier": "https://HERMES-DKZ.github.io/metadaten/mets.html",
   "dateCreated": "2025-05-22",
-  "dateModified": "2025-07-02",
+  "dateModified": "2025-07-22",
   "datePublished": "2025-07-22"
 }
 
