@@ -46,7 +46,7 @@ Der Vorteil der Verwendung eines solchen Formats ist die Interoperabilität der 
 
 ### Aufgabe
 
-Öffnen Sie die Dateien [artworksShort.csv](https://github.com/HERMES-DKZ/metadata_lesson/blob/main/episodes/data/artworksShort.csv) und [artworksShort.xslx](https://github.com/HERMES-DKZ/metadata_lesson/blob/main/episodes/data/artworksShort.xlsx) in einem Tabellenkalkulationsprogramm Ihrer Wahl. 
+Öffnen Sie die Dateien "artworksShort.csv" und "artworksShort.xslx" in einem Tabellenkalkulationsprogramm Ihrer Wahl. 
 
 - Was fällt Ihnen auf?    
 - In welcher Form liegen die Daten vor?    
