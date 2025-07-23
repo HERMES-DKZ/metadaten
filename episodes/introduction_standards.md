@@ -88,6 +88,41 @@ Ein Objekt kann das Subjekt eines anderen Tripels werden und umgekehrt, wie das 
 
 Dieser Ansatz wird hauptsächlich im Semantic Web verwendet, wo er als Grundgerüst für verknüpfte offene Daten (Linked Open Data) dient. Linked Open Data (LOD) zielen darauf ab, ein Höchstmaß an Verknüpfung zwischen Datensätzen zu erreichen. Entitäten werden in diesem Zusammenhang mit eindeutigen Bezeichnern in den Metadaten versehen, die wiederum Entitäten darstellen, die über eigene Metadaten verfügen. Zur Veranschaulichung: Eine Entität kann durch ihren Bezeichner im Kontext der Wissensdatenbank der Wikimedia Foundation, bekannt als "Wikidata", beschrieben werden. Durch die Herstellung dieser Verknüpfungen werden die in diesem Zusammenhang verfügbaren Daten indirekt genutzt. Wie dies praktisch aussieht, erfahren Sie in der Episode zu RDF. 
 
+::: challenge
 
+### Übung 
+
+Diskutieren Sie das folgende Diagramm in kleinen Gruppen. Was wird gezeigt? Wie werden Daten miteinander verknüpft? Fallen Ihnen weitere Daten ein, die man verlinken könnte?   
+
+![Graphic Data Relation Exercise](fig/graphstart.png){alt='Figure of Exercise on Data Relations'}
+
+
+::: solution
+
+### Lösung
+Nicht nur der Name des Autors ist als Entität enthalten, sondern auch sein GND-Datenbank-Identifikator. 
+Die Gemeinsame Normdatei (GND), die von der Deutschen Nationalbibliothek verwaltet wird, ist eine umfassende Datenbank, die Personen, Körperschaften, Konferenzen, Geografien, Sachgebiete und Werke beschreibt. Innerhalb der GND ist die Entität Autor auch eine Metadaten-Entität, die biografische Daten enthält. Durch die Verknüpfung dieser beiden Entitäten werden ihre Daten in einem einzigen Datensatz zusammengefasst, so dass keine separaten Datensätze mehr erforderlich sind. Die Veröffentlichung hat ebenfalls einen Datensatz in der GND-Datenbank, und diese Entität ist mit allen Metadaten verknüpft, die mit der Veröffentlichung verbunden sind, wie z.B. das Erscheinungsjahr. In diesem Beispiel hat der Verlag eine eigene Entität in Form eines Wikidata-Datensatzes, mit dem er verknüpft ist. Die Metadaten in dieser Entität enthalten Informationen über den Standort des Verlags, die mit einem Identifikator verknüpft sind. In diesem Beispiel ist dies die TGN-ID. Der Getty Thesaurus of Geographic Names (TGN) dient als Standarddatenbank für geografische Namen, in der verschiedene Schreibweisen, einschließlich historischer Schreibweisen, sowie Koordinaten und Länderzugehörigkeit neben anderen Attributen erfasst werden. Auf diese Weise entsteht ein Datennetz, das je nach Verfügbarkeit der Daten nach Bedarf erweitert werden kann. Es gibt viele andere Normdaten, kontrollierte Vokabulare und Thesauri, die Informationen über Entitäten wie Objekte, Vokabeln, Begriffe usw. liefern. Sie alle können verwendet werden, um das Netzwerk zu einem Graphen zu erweitern.
+
+:::
+:::
+
+    
+::: callout 
+
+#### Standards für Datenwerte  
+
+Diese Standards stellen kontrollierte Vokabulare, Thesauri (hierarchische Listen verwandter Begriffe) und Normdaten (Listen standardisierter Namen oder Begriffe für Entitäten wie Autoren, Künstler oder Organisationen) bereit, um die Konsistenz der zur Beschreibung von Ressourcen verwendeten Begriffe zu gewährleisten (z. B. Getty Art & Architecture Thesaurus, Virtual International Authority File - VIAF).  
+Wertestandards sind unerlässlich, um die Auffindbarkeit zu verbessern und sicherzustellen, dass Metadatensätze über verschiedene Datensätze und Systeme hinweg konsistent und genau sind.
+:::  
+
+Sammlungen des kulturellen Erbes zeichnen sich häufig durch eine große Heterogenität in Bezug auf Inhalt, Alter, Retrodigitalisierungsmethoden und damit verbundene Datenerfassungsprozesse aus. Auch Art und Umfang der erfassten Metadaten sind in den einzelnen Sammlungen sehr unterschiedlich. Unterschiede bei der Datenerfassung und -speicherung tragen ebenfalls zu dieser Heterogenität bei. Das Ziel der Konsolidierung von Sammlungen in Online-Portalen zur Verbesserung der Sichtbarkeit und Zugänglichkeit erfordert jedoch eine weitestgehende Standardisierung der Daten. Diese hilft auch der Forschung, die Vergleichbarkeit einer großen Anzahl von Objekten zu gewährleisten. Die Standardisierung großer Datenmengen aus unterschiedlichen Sammlungen ist zeit-, kosten- und personalaufwändig, und diese Ressourcen sind oft knapp. Aus diesem Grund wurden in den letzten Jahren Mindestanforderungen an Metadaten diskutiert. Ein in Deutschland entwickelter Mindestdatensatz wird im Folgenden vorgestellt.  
+
+
+::: keypoints  
+Die Begriffe Metadatenstandard, Metadatenschema und Metadatenmodell werden häufig synonym verwendet. Sie lassen sich grob wie folgt unterscheiden:
+ - Ein Metadatenstandard beschreibt die Elemente oder die Struktur von Metadaten und ist hauptsächlich für die technische Umsetzung definiert.
+ - Ein Metadatenschema bietet eine Struktur für Metadaten innerhalb eines bestimmten Inhalts, wobei häufig bestehende Metadatenstandards integriert werden.
+ - Ein Metadatenmodell ist ein abstraktes und theoretisches Modell, das Metadaten in ihrem Kontext beschreibt.
+:::
 
 
