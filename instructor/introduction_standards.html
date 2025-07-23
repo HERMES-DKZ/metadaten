@@ -356,7 +356,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Einführung in Metadatenstandards, -schemata und -modelle</h1>
-        <p>Last updated on 2025-06-30 |
+        <p>Last updated on 2025-07-23 |
 
         <a href="https://github.com/HERMES-DKZ/metadaten/edit/main/episodes/introduction_standards.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -508,6 +508,113 @@ der Wissensdatenbank der Wikimedia Foundation, bekannt als “Wikidata”,
 beschrieben werden. Durch die Herstellung dieser Verknüpfungen werden
 die in diesem Zusammenhang verfügbaren Daten indirekt genutzt. Wie dies
 praktisch aussieht, erfahren Sie in der Episode zu RDF.</p>
+<div id="übung" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="übung" class="callout-inner">
+<h3 class="callout-title">Übung</h3>
+<div class="callout-content">
+<p>Diskutieren Sie das folgende Diagramm in kleinen Gruppen. Was wird
+gezeigt? Wie werden Daten miteinander verknüpft? Fallen Ihnen weitere
+Daten ein, die man verlinken könnte?</p>
+<figure><img src="../fig/graphstart.png" alt="Figure of Exercise on Data Relations" class="figure mx-auto d-block"><div class="figcaption">Graphic Data Relation Exercise</div>
+</figure></div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Lösung
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Nicht nur der Name des Autors ist als Entität enthalten, sondern auch
+sein GND-Datenbank-Identifikator. Die Gemeinsame Normdatei (GND), die
+von der Deutschen Nationalbibliothek verwaltet wird, ist eine umfassende
+Datenbank, die Personen, Körperschaften, Konferenzen, Geografien,
+Sachgebiete und Werke beschreibt. Innerhalb der GND ist die Entität
+Autor auch eine Metadaten-Entität, die biografische Daten enthält. Durch
+die Verknüpfung dieser beiden Entitäten werden ihre Daten in einem
+einzigen Datensatz zusammengefasst, so dass keine separaten Datensätze
+mehr erforderlich sind. Die Veröffentlichung hat ebenfalls einen
+Datensatz in der GND-Datenbank, und diese Entität ist mit allen
+Metadaten verknüpft, die mit der Veröffentlichung verbunden sind, wie
+z.B. das Erscheinungsjahr. In diesem Beispiel hat der Verlag eine eigene
+Entität in Form eines Wikidata-Datensatzes, mit dem er verknüpft ist.
+Die Metadaten in dieser Entität enthalten Informationen über den
+Standort des Verlags, die mit einem Identifikator verknüpft sind. In
+diesem Beispiel ist dies die TGN-ID. Der Getty Thesaurus of Geographic
+Names (TGN) dient als Standarddatenbank für geografische Namen, in der
+verschiedene Schreibweisen, einschließlich historischer Schreibweisen,
+sowie Koordinaten und Länderzugehörigkeit neben anderen Attributen
+erfasst werden. Auf diese Weise entsteht ein Datennetz, das je nach
+Verfügbarkeit der Daten nach Bedarf erweitert werden kann. Es gibt viele
+andere Normdaten, kontrollierte Vokabulare und Thesauri, die
+Informationen über Entitäten wie Objekte, Vokabeln, Begriffe usw.
+liefern. Sie alle können verwendet werden, um das Netzwerk zu einem
+Graphen zu erweitern.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="standards-für-datenwerte" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="standards-für-datenwerte" class="callout-inner">
+<h3 class="callout-title">Standards für Datenwerte</h3>
+<div class="callout-content">
+<p>Diese Standards stellen kontrollierte Vokabulare, Thesauri
+(hierarchische Listen verwandter Begriffe) und Normdaten (Listen
+standardisierter Namen oder Begriffe für Entitäten wie Autoren, Künstler
+oder Organisationen) bereit, um die Konsistenz der zur Beschreibung von
+Ressourcen verwendeten Begriffe zu gewährleisten (z. B. Getty Art &amp;
+Architecture Thesaurus, Virtual International Authority File -
+VIAF).<br>
+Wertestandards sind unerlässlich, um die Auffindbarkeit zu verbessern
+und sicherzustellen, dass Metadatensätze über verschiedene Datensätze
+und Systeme hinweg konsistent und genau sind.</p>
+</div>
+</div>
+</div>
+<p>Sammlungen des kulturellen Erbes zeichnen sich häufig durch eine
+große Heterogenität in Bezug auf Inhalt, Alter,
+Retrodigitalisierungsmethoden und damit verbundene
+Datenerfassungsprozesse aus. Auch Art und Umfang der erfassten Metadaten
+sind in den einzelnen Sammlungen sehr unterschiedlich. Unterschiede bei
+der Datenerfassung und -speicherung tragen ebenfalls zu dieser
+Heterogenität bei. Das Ziel der Konsolidierung von Sammlungen in
+Online-Portalen zur Verbesserung der Sichtbarkeit und Zugänglichkeit
+erfordert jedoch eine weitestgehende Standardisierung der Daten. Diese
+hilft auch der Forschung, die Vergleichbarkeit einer großen Anzahl von
+Objekten zu gewährleisten. Die Standardisierung großer Datenmengen aus
+unterschiedlichen Sammlungen ist zeit-, kosten- und personalaufwändig,
+und diese Ressourcen sind oft knapp. Aus diesem Grund wurden in den
+letzten Jahren Mindestanforderungen an Metadaten diskutiert. Ein in
+Deutschland entwickelter Mindestdatensatz wird im Folgenden
+vorgestellt.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<p>Die Begriffe Metadatenstandard, Metadatenschema und Metadatenmodell
+werden häufig synonym verwendet. Sie lassen sich grob wie folgt
+unterscheiden: - Ein Metadatenstandard beschreibt die Elemente oder die
+Struktur von Metadaten und ist hauptsächlich für die technische
+Umsetzung definiert. - Ein Metadatenschema bietet eine Struktur für
+Metadaten innerhalb eines bestimmten Inhalts, wobei häufig bestehende
+Metadatenstandards integriert werden. - Ein Metadatenmodell ist ein
+abstraktes und theoretisches Modell, das Metadaten in ihrem Kontext
+beschreibt.</p>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
@@ -570,8 +677,8 @@ any links that you are not going to use.
   "url": "https://HERMES-DKZ.github.io/metadaten/instructor/introduction_standards.html",
   "identifier": "https://HERMES-DKZ.github.io/metadaten/instructor/introduction_standards.html",
   "dateCreated": "2025-05-22",
-  "dateModified": "2025-06-30",
-  "datePublished": "2025-07-22"
+  "dateModified": "2025-07-23",
+  "datePublished": "2025-07-23"
 }
 
   </script><script>
