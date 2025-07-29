@@ -69,7 +69,7 @@ The terms listed here are defined solely within this context and do not claim to
 
 **Encoding** - In data processing, characters are encoded with a numerical value for transmission or storage. Character encoding allows characters and symbols to be uniquely assigned within a character set. There are different character encodings, so it is important to know which one is being used. For example, the German Ü may be encoded with the decimal value 220 in one character set, while the same value in another character set encodes the curly bracket. To ensure that the data is displayed correctly when used, the form of encoding has to be specified. UTF-8 and UTF-16 are among the most common character sets you may encounter when processing data.
 
-**FAIR** - The [FAIR](https://www.go-fair.org/) (Findable, Accessible, Interoperable und Reusable) Principles serve as guidelines to make data suitable for reuse by humans and machines under clearly described conditions. 
+**FAIR** - The [FAIR](https://www.go-fair.org/) (Findable, Accessible, Interoperable and Reusable) Principles serve as guidelines to make data suitable for reuse by humans and machines under clearly described conditions. 
 
 **Hybrid Research Workflow** – Research approaches that combine different data types (analog, digitized, and born-digital) to generate new insights.
 
@@ -77,8 +77,7 @@ The terms listed here are defined solely within this context and do not claim to
 
 **Institutional Infrastructure** – Institutions such as libraries, archives, and data centers that ensure the storage, provision, and protection of data.
 
-**LOD** -   
-> Linked Open Data is Linked Data which is released under an open license, which does not impede its reuse for free (Tim Berners-Lee).
+**LOD** -  Linked Open Data is Linked Data which is released under an open license, which does not impede its reuse for free (Tim Berners-Lee).
 
 **Ontologies** - Ontologies are linguistically and formally organized representations of concepts and the relationships between them in a given domain. In the cultural heritage field in particular, they specify the presentation of object data so that it can be placed in larger contexts. Ontologies are used to model and standardize information.
 
@@ -86,7 +85,7 @@ The terms listed here are defined solely within this context and do not claim to
 
 **Pattern Recognition** – Techniques for identifying recurring structures in data.
 
-**Pertinence principle** - The principle of pertinence - as a classification priciple - describes the classification of archival records according to territorial, personal or subject matter, regardless of the context in which they were created.
+**Pertinence principle** - The principle of pertinence - as a classification principle - describes the classification of archival records according to territorial, personal or subject matter, regardless of the context in which they were created.
 
 **Provenance principle** - The provenance principle is an archival classification principle and forms the basis for the classification and indexing of archival records according to their origin and context.
 
