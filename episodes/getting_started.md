@@ -56,8 +56,6 @@ In diesem Zusammenhang spielen **Daten** und **Metadaten** eine wichtige Rolle. 
 Die Digitalisierung beginnt mit der Umwandlung von Inhalten in Daten. Ganz gleich, ob es sich um Texte, Bilder oder Töne handelt – all diese Inhalte werden in digitaler Form als Daten gespeichert. Damit diese Daten sinnvoll genutzt, gefunden und verstanden werden können, müssen sie beschrieben und geordnet werden. Genau hier kommen Metadaten ins Spiel: Sie liefern Informationen über die Daten – etwa darüber, was sie darstellen, wann sie entstanden sind oder wie sie verwendet werden können.
 
 
-Hier ist eine übersetzte und stilistisch verbesserte Version mit einem didaktischen Tonfall:
-
 ---
 
 Beim Arbeiten mit digitalen Ressourcen sind sowohl **Daten** als auch **Metadaten** entscheidend – sie ermöglichen es, Informationen zu ordnen, gezielt zu suchen und sinnvoll zu interpretieren. Die Herausforderungen, denen Sie bei Online-Recherchen begegnen, spiegeln die Komplexität im Umgang mit diesen Elementen wider. Dazu zählen unter anderem die Sicherstellung der Genauigkeit, der Erhalt des Kontexts sowie der Umgang mit großen Informationsmengen.
