@@ -79,7 +79,7 @@ Der digitale Wandel in den Geisteswissenschaften wirft wichtige Fragen zur Natur
 Digitale Werkzeuge können Wissen demokratisieren, aber je nach Gestaltung und Anwendung auch bestehende Vorurteile verstärken.
 
 #### 5. Interdisziplinäre Zusammenarbeit
-  Die Digital Humanities sind von Natur aus interdisziplinär: Sie bringen Geisteswissenschaftler/*innen mit Informatiker/*innen und Datenanalyst*innen zusammen. Diese Zusammenarbeit eröffnet neue Forschungsfragen, Methoden und Erkenntnisformen.
+  Die Digital Humanities sind von Natur aus interdisziplinär: Sie bringen Geisteswissenschaftler\*innen mit Informatiker\*innen und Datenanalyst\*innen zusammen. Diese Zusammenarbeit eröffnet neue Forschungsfragen, Methoden und Erkenntnisformen.
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
