@@ -46,15 +46,14 @@ Dublin Core definiert die Metadatenfelder selbst, jedoch nicht deren Struktur, w
 
 ### Übung
 
-Sie haben ein Foto von Johan Hagemeyer. Es trägt den Titel „Albert Einstein, Pasadena“. Darauf ist Albert Einstein zu sehen.
+Dir liegt ein Foto von Johan Hagemeyer vor. Es trägt den Titel „Albert Einstein, Pasadena“. Darauf ist Albert Einstein zu sehen.
 Es wurde im Jahr 1931 aufgenommen und im Jahr 1962 an das Museum ausgeliehen. Das Foto stammt aus dem Nachlass des Fotografen. Albert Einstein lebte von 1879 bis 1955 und war zum Zeitpunkt der Aufnahme 52 Jahre alt. Der Fotograf Johan Hagemeyer lebte von 1884 bis 1962 und das Foto wurde in Pasadena aufgenommen. Der Aufnahmeort ist New York. Das Foto misst 24,6 × 18,7 cm. Das Passepartout hat die Maße 45,6 × 35,4 cm. 
 
-Sie finden das Objekt in der [MET collection](https://www.metmuseum.org/art/collection/search/270713). Schauen Sie sich die Spezifikationen auf der [Webseite](https://www.dublincore.org/specifications/dublin-core/dces/) an, wenn Sie sich unsicher sind, wie Sie die Daten erfassen können. 
+Das Objekt befindet sich in der [MET collection](https://www.metmuseum.org/art/collection/search/270713). Schau Dir die Spezifikationen auf der [Webseite](https://www.dublincore.org/specifications/dublin-core/dces/) an, wenn du dir unsicher bist, wie du die Daten erfassen kannst. 
 
-Welche Information würden Sie in den Felder der 15 Kernelemente wie erfassen? Machen Sie sich ebenso Gedanken, warum Sie Felder auswählen oder nicht. 
-Fehlen Ihnen Informationen um alle Felder auszufüllen? Wenn ja, welche und warum? 
+Welche Information können in den Felder der 15 Kernelemente wie erfasst werden? Warum wählst du bestimmte Felder aus oder warum andere nicht?
 
-Diskutieren Sie in kleinen Gruppen. 
+Diskutiert in kleinen Gruppen. 
 
 ::: solution
 
@@ -84,10 +83,10 @@ Dies ist eine von mehreren möglichen Lösungen.
 
 ### Diskussion
 
-Was haben Sie diskutiert? Was waren die Herausforderungen bei der Zuordnung? 
+Was habt ihr diskutiert? Was waren die Herausforderungen bei der Zuordnung? 
 :::
 
-Haben Sie darüber diskutiert, welches Datum in das *date*-Feld gehört? Woher wissen wir nun, welches Datum genau gemeint ist? Das Datum der Erstellung des Objekts, das der Digitalisierung, der Veröffentlichung oder das der Übermittlung an die Institution?   
+Habt ihr darüber diskutiert, welches Datum in das *date*-Feld gehört? Woher wissen wir nun, welches Datum genau gemeint ist? Das Datum der Erstellung des Objekts, das der Digitalisierung, der Veröffentlichung oder das der Übermittlung an die Institution?   
 
 Die ursprünglichen Kernelemente von Dublin Core wurden erweitert, um solche und andere Informationen über die Daten zu präzisieren. 
 
@@ -109,7 +108,7 @@ Mit diesen Erweiterungen wird das Feld *relation* für die Versionierung eines O
 
 ### Übung
 
-Schauen Sie sich das *date*-Element genauer an. Eine Liste aller authorisierten Qualifier finden Sie auf der [Dublin Core Webseite](https://www.dublincore.org/specifications/dublin-core/usageguide/qualifiers/). Welchen Qualifier würden Sie für welche Datumsangabe der Fotografie Hagemeyers verwenden?  
+Schaue dir das *date*-Element genauer an. Eine Liste aller authorisierten Qualifier befindet sich auf der [Dublin Core Webseite](https://www.dublincore.org/specifications/dublin-core/usageguide/qualifiers/). Welcher Qualifier ist für welche Datumsangabe der Fotografie Hagemeyers geeignet?  
 
 ::: solution
 
@@ -151,12 +150,12 @@ Die [Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/):
 
 ### Diskussion
 
-Wie ist Ihre Meinung zu dem erweiterten Metatdatenset? Fehlen Ihnen aus Ihrem Fachgebiet zum Beispiel noch spezielle Felder? Können Sie sich vorstellen für ein in Ihrem Fachgebiet relevantes Objekt alle Felder auszufüllen? 
+Wie ist eure Meinung zu dem erweiterten Metatdatenset? Fehlen aus euren Fachgebieten zum Beispiel noch spezielle Felder? Könnt ihr euch vorstellen für ein in eurem Fachgebiet relevantes Objekt alle Felder auszufüllen? 
 :::   
 
 ::: callout
 
-Sehr wahrscheinlich werden Sie feststellen, dass mit den im Dublin-Core-Standard vorgegebenen Metadatenfeldern nicht alle Objekte erfasst werden können. Auch können Sie nicht alle Felder immer ausfüllen. Daher gibt es viele weitere Standards oder Schemata, die für das jeweilige Fachgebiet oder spezielle Objekte des kulturellen Erbes erstellt worden sind. Es wird Ihnen eventuell auch auffallen, wenn Sie andere Standards oder Schemata betrachten, dass einige wiederum Elemente von Dublin Core nachnutzen.  
+Sehr wahrscheinlich werdet ihr feststellen, dass mit den im Dublin-Core-Standard vorgegebenen Metadatenfeldern nicht alle Objekte erfasst werden können. Auch können nicht alle Felder immer ausgefüllt werden. Daher gibt es viele weitere Standards oder Schemata, die für das jeweilige Fachgebiet oder spezielle Objekte des kulturellen Erbes erstellt worden sind. Wenn ihr andere Standards oder Schemata betrachtet, fällt euch sicher auf, dass einige wiederum Elemente von Dublin Core nachnutzen.  
 :::   
 
   

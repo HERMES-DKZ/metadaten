@@ -15,7 +15,7 @@ exercises: 10
 
 Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein,
 
-- die Begriffe *Metadatenstandard*, *Metadatenschema* und *Metadatenmodell* zu erläutern,     
+- die Unterschiede zwischen den Begriffen *Metadatenstandard*, *Metadatenschema* und *Metadatenmodell* anhand von zentralen Aspekten wiederzugeben.   
 
 :::
 
@@ -92,7 +92,7 @@ Dieser Ansatz wird hauptsächlich im Semantic Web verwendet, wo er als Grundger�
 
 ### Übung 
 
-Diskutieren Sie das folgende Diagramm in kleinen Gruppen. Was wird gezeigt? Wie werden Daten miteinander verknüpft? Fallen Ihnen weitere Daten ein, die man verlinken könnte?   
+Diskutiert das folgende Diagramm in kleinen Gruppen. Was wird gezeigt? Wie werden Daten miteinander verknüpft? Fallen euch weitere Daten ein, die man verlinken könnte?   
 
 ![Graphic Data Relation Exercise](fig/graphstart.png){alt='Figure of Exercise on Data Relations'}
 
