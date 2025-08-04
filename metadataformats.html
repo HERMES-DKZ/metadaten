@@ -416,7 +416,7 @@ kann?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Antwort </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Eine einfache Möglichkeit stellen die Tabellenblätter in einem
 Tabellenkalkulationsprogramm dar.</p>
@@ -456,7 +456,7 @@ einem Tabellenkalkulationsprogramm deiner Wahl.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Lösung </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul><li>Beim Öffnen der CSV-Datei werden mehrere Parameter abgefragt.</li>
 <li>Einige Daten in der XSLX-Datei sind mit Farben sowie fett- und
@@ -478,8 +478,8 @@ und weitergegeben werden kann.</li>
 <hr class="half-width"><p>Das CSV-Format (comma-separated values) in diesem Beispiel wird
 normalerweise als Tabelle in einem Tabellenkalkulationsprogramm wie
 Excel geöffnet, damit es von Menschen strukturiert gelesen werden kann.
-Wenn Sie das Format in einem Texteditor öffnen, erkennen Sie die
-Struktur der Datei:</p>
+Wenn man das Format in einem Texteditor öffnet, zeigt sich die Struktur
+der Datei:</p>
 <pre><code>ID;artist;title;date
 1;Salvador Dalí;The persistence of memory;1931
 2;Walker Evans;Allie Mae Burroughs, Wife of a Cotton Sharecropper, Hale County, Alabama;1936
@@ -495,23 +495,23 @@ Hier ist der Grund dafür:</p>
 so genannten Trennzeichen oder <em>delimiter</em> – getrennt. Die
 meisten Dateien, die Trennzeichen jeglicher Art nutzen, erhalten oft die
 Erweiterung <em>.csv</em>, auch wenn das Trennzeichen kein Komma ist,
-wie das vorliegende Beispiel zeigt. In vielen Dateien finden Sie den
-Inhalt der Datenfelder in Anführungszeichen eingeschlossen, wenn Sie die
-Datei in einem Editor öffnen. Dies sieht man in einem Tabellenprogramm
-nicht. Die einzelenen Datensätze stehen meist in einer Zeile und werden
-durch einen Zeilenumbruch getrennt. Oft definiert die erste Zeile die
+wie das vorliegende Beispiel zeigt. In vielen Dateien ist der Inhalt der
+Datenfelder in Anführungszeichen eingeschlossen, wenn die Datei in einem
+Editor geöffnet wird. Dies sieht man in einem Tabellenprogramm nicht.
+Die einzelenen Datensätze stehen meist in einer Zeile und werden durch
+einen Zeilenumbruch getrennt. Oft definiert die erste Zeile die
 Spaltenüberschriften. Werden diese Parameter beim Öffnen der Datei
 korrekt eingegeben, werden die Daten in die entsprechenden Felder des
 Tabellenkalkulationspogramms übertragen.</p>
 </section><section><h2 class="section-heading" id="unterschied-zwischen-csv--und-xslx-dateien">Unterschied zwischen CSV- und XSLX-Dateien<a class="anchor" aria-label="anchor" href="#unterschied-zwischen-csv--und-xslx-dateien"></a></h2>
-<hr class="half-width"><p>Mit einem XSLX-Format können Sie Daten in mehreren Tabellenblättern,
-die in einer einzigen Datei gespeichert sind, speichern. Die Daten sind
-in Zellen organisiert, die in Zeilen und Spalten angeordnet sind. Sowohl
-die Zellen als auch die darin enthaltenen Datenwerte können formatiert
-werden, einschließlich Schriftarten, Farben und Rahmen. Die Daten können
-mit integrierten Funktionen bearbeitet werden, z. B. für Berechnungen
-oder Analysen. Es ist auch möglich, die analysierten Daten in
-Tabellenkalkulationsprogrammen wie Excel zu visualisieren.</p>
+<hr class="half-width"><p>Mit einem XSLX-Format können Daten in mehreren Tabellenblättern in
+einer einzigen Datei gespeichert und miteinander verknüpft werden. Die
+Daten sind in Zellen organisiert, die in Zeilen und Spalten angeordnet
+sind. Sowohl die Zellen als auch die darin enthaltenen Datenwerte können
+formatiert werden, einschließlich Schriftarten, Farben und Rahmen. Die
+Daten können mit integrierten Funktionen bearbeitet werden, z. B. für
+Berechnungen oder Analysen. Es ist auch möglich, die analysierten Daten
+in Tabellenkalkulationsprogrammen wie Excel zu visualisieren.</p>
 <p>Einer der Nachteile ist die begrenzte Anzahl von Zeilen und Spalten -
 zum Beispiel 1.048.576 Zeilen und 16.385 Spalten pro Arbeitsblatt,
 abhängig von der Softwareversion. Auch andere Funktionen können von der
@@ -563,15 +563,14 @@ Organization in Spreadsheets for Social Scientists</a></p>
 </div>
 </div>
 <p>Es gibt bestimmte Datenformate, die einige der hier genannten
-Probleme lösen. So zum Beispiel durch die Nutzung einer
-Auszeichnungssprache (Markup Language). Auszeichnungssprachen werden zur
-Strukturierung und Formatierung von Text und Daten in maschinenlesbarer
-Form verwendet. Sie beruhen auf einer Metasprache namens SGML (Standard
-Generalized Markup Language). SGML ist ein Standard für
-Auszeichnungssprachen. Sie legt fest, wie die Syntax (Regeln) für
-Elemente, Attribute und die Dokumentstruktur in einer
-Auszeichnungssprache zu definieren ist. In der Episode zu XML erfahren
-Sie mehr dazu.</p>
+Probleme lösen, wie etwa die Nutzung einer Auszeichnungssprache (Markup
+Language). Auszeichnungssprachen werden zur Strukturierung und
+Formatierung von Text und Daten in maschinenlesbarer Form verwendet. Sie
+beruhen auf einer Metasprache namens SGML (Standard Generalized Markup
+Language). SGML ist ein Standard für Auszeichnungssprachen. Sie legt
+fest, wie die Syntax (Regeln) für Elemente, Attribute und die
+Dokumentstruktur in einer Auszeichnungssprache zu definieren ist. In der
+Episode zu XML erfahren Sie mehr dazu.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -579,7 +578,7 @@ Sie mehr dazu.</p>
 <div class="callout-inner">
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
-<ul><li>Wenn Daten oder die Tabelle formatiert werden müssen oder Daten mit
+<ul><li>Wenn die Tabelle oder Daten formatiert werden müssen oder Daten mit
 der Software analysiert werden sollen, eignet sich das XSLX-Format zum
 Speichern, Formatieren und Analysieren der Daten.<br></li>
 <li>Wenn dies nicht der Fall ist oder sehr große Datenmengen vorliegen,

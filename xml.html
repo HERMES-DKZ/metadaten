@@ -405,8 +405,8 @@ einem einzigen Dokument kombiniert werden.</p>
 <section><h2 class="section-heading" id="xml-elemente">XML Elemente<a class="anchor" aria-label="anchor" href="#xml-elemente"></a></h2>
 <hr class="half-width"><p>Ein XML-Dokument enthält XML-Elemente zur Strukturierung der Daten.
 Sie werden mit Hilfe von Tags in spitzen Klammern gebildet und sind in
-einen öffnenden und einen schließenden Tag unterteilt. Die schließende
-Tag ist durch einen führenden Schrägstrich gekennzeichnet. Dazwischen
+ein öffnendes und ein schließendes Tag unterteilt. Das schließende Tag
+ist durch einen führenden Schrägstrich gekennzeichnet. Dazwischen
 befindet sich der Inhalt.</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -457,6 +457,9 @@ automatisch gelesen werden:</p>
 </h3>
 <pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co">&lt;!-- Here is the content of the comment, there is no closing tag --&gt;</span></span></code></pre>
 </div>
+<p>In den Kommentaren stehen häufig erklärende Informationen, die das
+Interpretieren der Tags erleichtern oder Hiweise zur korrekten Erfassung
+des Inhaltes geben.</p>
 <p>In XML müssen alle Elemente ordnungsgemäß verschachtelt sein, was
 bedeutet, dass ein Element, das innerhalb eines anderen Elements
 geöffnet wird, auch innerhalb dieses Elements geschlossen werden
@@ -485,11 +488,12 @@ ist:</p>
 <span id="cb5-11"><a href="#cb5-11" tabindex="-1"></a>  &lt;/<span class="kw">artist</span>&gt;</span>
 <span id="cb5-12"><a href="#cb5-12" tabindex="-1"></a>&lt;/<span class="kw">collection</span>&gt;</span></code></pre>
 </div>
-<p>oder in einer Zeile:</p>
+<p>Die hier verschachtelten Daten sehen in einer Zeile geschrieben so
+aus:</p>
 <div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>&lt;<span class="kw">collection</span>&gt;&lt;<span class="kw">name</span>&gt;&lt;/<span class="kw">name</span>&gt;&lt;<span class="kw">place</span>&gt;&lt;/<span class="kw">place</span>&gt;&lt;<span class="kw">artist</span>&gt;&lt;<span class="kw">name</span>&gt;&lt;/<span class="kw">name</span>&gt;&lt;<span class="kw">dateOfBirth</span>&gt;&lt;<span class="kw">day</span>&gt;&lt;/<span class="kw">day</span>&gt;&lt;<span class="kw">month</span>&gt;&lt;/<span class="kw">month</span>&gt;&lt;<span class="kw">year</span>&gt;&lt;/<span class="kw">year</span>&gt;&lt;/<span class="kw">dateOfBirth</span>&gt;&lt;/<span class="kw">artist</span>&gt;&lt;/<span class="kw">collection</span>&gt;</span></code></pre>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>&lt;<span class="kw">collection</span>&gt;&lt;<span class="kw">name</span>&gt;MET&lt;/<span class="kw">name</span>&gt;&lt;<span class="kw">place</span>&gt;collection of the MET in New York&lt;/<span class="kw">place</span>&gt;&lt;<span class="kw">artist</span>&gt;&lt;<span class="kw">name</span>&gt;Fullname&lt;/<span class="kw">name</span>&gt;&lt;<span class="kw">dateOfBirth</span>&gt;&lt;<span class="kw">day</span>&gt;Day of Birth&lt;/<span class="kw">day</span>&gt;&lt;<span class="kw">month</span>&gt;Month of Birth&lt;/<span class="kw">month</span>&gt;&lt;<span class="kw">year</span>&gt;Year of Birth&lt;/<span class="kw">year</span>&gt;&lt;/<span class="kw">dateOfBirth</span>&gt;&lt;/<span class="kw">artist</span>&gt;&lt;/<span class="kw">collection</span>&gt;</span></code></pre>
 </div>
 <p>Wie dieses Beispiel zeigt, haben XML-Dokumente eine Baumstruktur. Sie
 beginnen mit dem Wurzelelement und verzweigen sich dann immer tiefer.
@@ -501,8 +505,8 @@ untergeordnete Elemente.</p>
 <p>Die in der Struktur der XML-Syntax verwendeten Zeichen müssen
 bestimmte Regeln einhalten. Bestimmte Zeichen, wie z. B. „&lt;“ für „ist
 kleiner als“, müssen durch eine spezielle Zeichenfolge ersetzt werden,
-damit sie keine Probleme verursachen. Wenn Sie einfach nur „&lt;“
-verwenden, versteht XML es als ein öffnendes Tag und erwartet, dass es
+damit sie keine Probleme verursachen. Wenn einfach nur „&lt;“ verwendet
+wird, versteht XML es als ein öffnendes Tag und erwartet, dass es
 irgendwann geschlossen wird. Um Fehler in diesem und ähnlichen Fällen zu
 vermeiden, wird das Zeichen durch eine Entitätsreferenz ersetzt:</p>
 <table class="table"><thead><tr class="header"><th>String</th>
@@ -529,7 +533,8 @@ vermeiden, wird das Zeichen durch eine Entitätsreferenz ersetzt:</p>
 <td>”</td>
 <td>Anführungszeichen</td>
 <td></td>
-</tr></tbody></table><div class="codewrapper sourceCode" id="cb7">
+</tr></tbody></table><p>Beispiel:</p>
+<div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>&lt;<span class="kw">photographer</span>&gt;Bernd <span class="dv">&amp;amp;</span> Hilla Becher&lt;/<span class="kw">photographer</span>&gt;</span></code></pre>
@@ -566,16 +571,16 @@ keine anderen Elemente dazwischen liegen oder keine Inhalte vorhanden
 sind. Sie sehen dies oft in der XML-Ausgabe, wenn das Metadatenfeld leer
 ist.</p>
 <p>Am Anfang eines XML-Dokuments steht oft ein so genannter Prolog oder
-eine Deklaration (*declaration):</p>
+eine Deklaration (<em>declaration</em>):</p>
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span></code></pre>
 </div>
-<p>Es ist optional, liefert aber Informationen über die verwendete
-Version und Kodierung<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Wenn es enthalten ist, muss es am Anfang
+<p>Dies ist optional, liefert aber Informationen über die verwendete
+Version und Kodierung<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Wenn er benutzt wird, muss er am Anfang
 des Dokuments über dem Root-Element platziert werden. Der XML-Prolog
-oder die Deklaration hat keinen schließenden Tag.</p>
+oder die Deklaration hat kein schließendes Tag.</p>
 <div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -605,7 +610,7 @@ aus und schreibe die Daten in XML.</p>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
 <div class="accordion-body">
 <ul><li>Erkennst du eine Struktur in den Daten? Können Teile der Daten zum
 Beispiel unter einer Kategorie gesammelt werden?</li>
@@ -620,7 +625,7 @@ Hierarchisierung.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
