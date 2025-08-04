@@ -76,7 +76,7 @@ Eine mögliche Quelle für Fehler und Probleme, die auftreten können und diskut
 
 ## Das CSV-Format  
 
-Das CSV-Format (comma-separated values) in diesem Beispiel wird normalerweise als Tabelle in einem Tabellenkalkulationsprogramm wie Excel geöffnet, damit es von Menschen strukturiert gelesen werden kann. Wenn Sie das Format in einem Texteditor öffnen, erkennen Sie die Struktur der Datei:  
+Das CSV-Format (comma-separated values) in diesem Beispiel wird normalerweise als Tabelle in einem Tabellenkalkulationsprogramm wie Excel geöffnet, damit es von Menschen strukturiert gelesen werden kann. Wenn man das Format in einem Texteditor öffnet, zeigt sich die Struktur der Datei:  
 
 ```
 ID;artist;title;date
@@ -91,12 +91,12 @@ ID;artist;title;date
 
 Beim Öffnen der CSV-Datei in einem Tabellenkalkulationsprogramm wurden einige Parameter abgefragt, bevor die Inhalte angezeigt werden. Hier ist der Grund dafür:  
 
-Die Daten in dieser speziellen CSV-Datei sind durch Semikolons – die so genannten Trennzeichen oder *delimiter* – getrennt. Die meisten Dateien, die Trennzeichen jeglicher Art nutzen, erhalten oft die Erweiterung *.csv*, auch wenn das Trennzeichen kein Komma ist, wie das vorliegende Beispiel zeigt. In vielen Dateien finden Sie den Inhalt der Datenfelder in Anführungszeichen eingeschlossen, wenn Sie die Datei in einem Editor öffnen. Dies sieht man in einem Tabellenprogramm nicht. Die einzelenen Datensätze stehen meist in einer Zeile und werden durch einen Zeilenumbruch getrennt. Oft definiert die erste Zeile die Spaltenüberschriften. Werden diese Parameter beim Öffnen der Datei korrekt eingegeben, werden die Daten in die entsprechenden Felder des Tabellenkalkulationspogramms übertragen.  
+Die Daten in dieser speziellen CSV-Datei sind durch Semikolons – die so genannten Trennzeichen oder *delimiter* – getrennt. Die meisten Dateien, die Trennzeichen jeglicher Art nutzen, erhalten oft die Erweiterung *.csv*, auch wenn das Trennzeichen kein Komma ist, wie das vorliegende Beispiel zeigt. In vielen Dateien ist der Inhalt der Datenfelder in Anführungszeichen eingeschlossen, wenn die Datei in einem Editor geöffnet wird. Dies sieht man in einem Tabellenprogramm nicht. Die einzelenen Datensätze stehen meist in einer Zeile und werden durch einen Zeilenumbruch getrennt. Oft definiert die erste Zeile die Spaltenüberschriften. Werden diese Parameter beim Öffnen der Datei korrekt eingegeben, werden die Daten in die entsprechenden Felder des Tabellenkalkulationspogramms übertragen.  
 
 ## Unterschied zwischen CSV- und XSLX-Dateien
 
 
-Mit einem XSLX-Format können Sie Daten in mehreren Tabellenblättern, die in einer einzigen Datei gespeichert sind, speichern. Die Daten sind in Zellen organisiert, die in Zeilen und Spalten angeordnet sind. Sowohl die Zellen als auch die darin enthaltenen Datenwerte können formatiert werden, einschließlich Schriftarten, Farben und Rahmen. Die Daten können mit integrierten Funktionen bearbeitet werden, z. B. für Berechnungen oder Analysen. Es ist auch möglich, die analysierten Daten in Tabellenkalkulationsprogrammen wie Excel zu visualisieren.
+Mit einem XSLX-Format können Daten in mehreren Tabellenblättern in einer einzigen Datei gespeichert und miteinander verknüpft werden. Die Daten sind in Zellen organisiert, die in Zeilen und Spalten angeordnet sind. Sowohl die Zellen als auch die darin enthaltenen Datenwerte können formatiert werden, einschließlich Schriftarten, Farben und Rahmen. Die Daten können mit integrierten Funktionen bearbeitet werden, z. B. für Berechnungen oder Analysen. Es ist auch möglich, die analysierten Daten in Tabellenkalkulationsprogrammen wie Excel zu visualisieren.
 
 Einer der Nachteile ist die begrenzte Anzahl von Zeilen und Spalten - zum Beispiel 1.048.576 Zeilen und 16.385 Spalten pro Arbeitsblatt, abhängig von der Softwareversion. Auch andere Funktionen können von der Softwareversion abhängen. Ältere Tabellen werden in der neuesten Version aufgrund mangelnder Kompatibilität der Funktionen möglicherweise nicht immer korrekt angezeigt.
 
@@ -119,11 +119,11 @@ Weitere Informationen zur Organisation von Daten bietet die Lektion [Data Organi
 
 :::  
 
-Es gibt bestimmte Datenformate, die einige der hier genannten Probleme lösen. So zum Beispiel durch die Nutzung einer Auszeichnungssprache (Markup Language). Auszeichnungssprachen werden zur Strukturierung und Formatierung von Text und Daten in maschinenlesbarer Form verwendet. Sie beruhen auf einer Metasprache namens SGML (Standard Generalized Markup Language). SGML ist ein Standard für Auszeichnungssprachen. Sie legt fest, wie die Syntax (Regeln) für Elemente, Attribute und die Dokumentstruktur in einer Auszeichnungssprache zu definieren ist. In der Episode zu XML erfahren Sie mehr dazu. 
+Es gibt bestimmte Datenformate, die einige der hier genannten Probleme lösen, wie etwa die Nutzung einer Auszeichnungssprache (Markup Language). Auszeichnungssprachen werden zur Strukturierung und Formatierung von Text und Daten in maschinenlesbarer Form verwendet. Sie beruhen auf einer Metasprache namens SGML (Standard Generalized Markup Language). SGML ist ein Standard für Auszeichnungssprachen. Sie legt fest, wie die Syntax (Regeln) für Elemente, Attribute und die Dokumentstruktur in einer Auszeichnungssprache zu definieren ist. In der Episode zu XML erfahren Sie mehr dazu. 
 
 ::: keypoints
 
-* Wenn Daten oder die Tabelle formatiert werden müssen oder Daten mit der Software analysiert werden sollen, eignet sich das XSLX-Format zum Speichern, Formatieren und Analysieren der Daten.    
+* Wenn die Tabelle oder Daten formatiert werden müssen oder Daten mit der Software analysiert werden sollen, eignet sich das XSLX-Format zum Speichern, Formatieren und Analysieren der Daten.    
 * Wenn dies nicht der Fall ist oder sehr große Datenmengen vorliegen, empfiehlt sich ein Format wie CSV, um die Daten zu speichern oder weiterzugeben.    
 * Es ist hilfreich, die Daten bei der Erfassung zu annotieren, zum Beispiel durch Überschriften zu kennzeichnen.   
 * Sei dir der Probleme bewusst, die entstehen können, wenn zum Beispiel Datums- oder Namensangaben erfasst werden und mache dir vorab Gedanken, welche Form für deine Zwecke geeignet sein könnte.
