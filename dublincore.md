@@ -96,13 +96,13 @@ Zunächst wurden Qualifier eingeführt. Ein Qualifier erweitert ein einfaches El
 
 Ein einfaches Dublin-Core-Element sieht folgendermaßen aus:
 
-dc.date
+dc.relation
 
-*dc* beschreibt den so genannten Namespace. Ein Namespace identifiert einen Standard, wie in diesem Fall *dc* für Dublin Core und wird Ihnen im Bereich der Metadaten und XML immer wieder begegnen. *date* beschreibt das Element. Beide können nun um einen Qualifier erweitert werden, der das Element spezifiziert, z.B.:
+*dc* beschreibt den so genannten Namespace. Ein Namespace identifiert einen Standard, wie in diesem Fall *dc* für Dublin Core und wird euch im Bereich der Metadaten und XML immer wieder begegnen. *relation* beschreibt das Element. Aber um was für eine Beziehung handelt es sich genau? Nun wird der Qualifier ergänzt, der das Element spezifiziert, z.B.:
 
 dc.relation.hasversion oder dc.relation.isversionof
 
-Mit diesen Erweiterungen wird das Feld *relation* für die Versionierung eines Objekts oder eine Datei verwendet. Dies kann der Fall sein, wenn es mehrere Digitalisierungen eines analogen Objekts gibt oder auch grundlegend, wenn zwischen der Erfassung des analogen Objekts und der digitalisierten Version unterschieden wird. 
+Mit diesen Erweiterungen wird das Feld *relation* für die Versionierung eines Objekts oder eine Datei verwendet. Es kann also sowohl eine, z.B. digitale, Version haben als auch eine Version eines anderen, z.B. analogen, Objekts sein oder eine ältere bzw. neuere Version des erfassten Objekts, wie es etwa bei Software vorkommen kann. 
 
 ::: challenge 
 
@@ -155,7 +155,7 @@ Wie ist eure Meinung zu dem erweiterten Metatdatenset? Fehlen aus euren Fachgebi
 
 ::: callout
 
-Sehr wahrscheinlich werdet ihr feststellen, dass mit den im Dublin-Core-Standard vorgegebenen Metadatenfeldern nicht alle Objekte erfasst werden können. Auch können nicht alle Felder immer ausgefüllt werden. Daher gibt es viele weitere Standards oder Schemata, die für das jeweilige Fachgebiet oder spezielle Objekte des kulturellen Erbes erstellt worden sind. Wenn ihr andere Standards oder Schemata betrachtet, fällt euch sicher auf, dass einige wiederum Elemente von Dublin Core nachnutzen.  
+Sehr wahrscheinlich werdet ihr feststellen, dass mit den im Dublin-Core-Standard vorgegebenen Metadatenfeldern nicht alle Objekte erfasst werden können. Auch können nicht alle Felder immer ausgefüllt werden. Daher gibt es viele weitere Standards oder Schemata, die für das jeweilige Fachgebiet oder spezielle Objekte des kulturellen Erbes erstellt worden sind. 
 :::   
 
   

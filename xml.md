@@ -25,7 +25,7 @@ Eines der am häufigsten verwendeten Dateiformate im Kulturbereich ist XML (eXte
 
 ## XML Elemente
 
-Ein XML-Dokument enthält XML-Elemente zur Strukturierung der Daten. Sie werden mit Hilfe von Tags in spitzen Klammern gebildet und sind in einen öffnenden und einen schließenden Tag unterteilt. Die schließende Tag ist durch einen führenden Schrägstrich gekennzeichnet. Dazwischen befindet sich der Inhalt.  
+Ein XML-Dokument enthält XML-Elemente zur Strukturierung der Daten. Sie werden mit Hilfe von Tags in spitzen Klammern gebildet und sind in ein öffnendes und ein schließendes Tag unterteilt. Das schließende Tag ist durch einen führenden Schrägstrich gekennzeichnet. Dazwischen befindet sich der Inhalt.  
 
 ```xml
 <tag>element</tag>
@@ -64,6 +64,7 @@ XML bietet auch die Möglichkeit, Kommentare zu verwenden, die nicht automatisch
 ```xml
 <!-- Here is the content of the comment, there is no closing tag -->
 ```  
+In den Kommentaren stehen häufig erklärende Informationen, die das Interpretieren der Tags erleichtern oder Hiweise zur korrekten Erfassung des Inhaltes geben. 
 
 In XML müssen alle Elemente ordnungsgemäß verschachtelt sein, was bedeutet, dass ein Element, das innerhalb eines anderen Elements geöffnet wird, auch innerhalb dieses Elements geschlossen werden muss:
 
@@ -86,15 +87,15 @@ Eine Einrückung kann verwendet werden, um die Struktur besser lesbar zu machen,
   </artist>
 </collection>
 ```
-oder in einer Zeile: 
+Die hier verschachtelten Daten sehen in einer Zeile geschrieben so aus: 
 
 ```xml
-<collection><name></name><place></place><artist><name></name><dateOfBirth><day></day><month></month><year></year></dateOfBirth></artist></collection>
+<collection><name>MET</name><place>collection of the MET in New York</place><artist><name>Fullname</name><dateOfBirth><day>Day of Birth</day><month>Month of Birth</month><year>Year of Birth</year></dateOfBirth></artist></collection>
 ```  
 
 Wie dieses Beispiel zeigt, haben XML-Dokumente eine Baumstruktur. Sie beginnen mit dem Wurzelelement und verzweigen sich dann immer tiefer. Das Tag \<artist\> wird als übergeordnetes Element bezeichnet und die untergeordneten Elemente \<name\> und \<dateOfBirth\> sind untergeordnete Elemente. Auf der tieferen Ebene ist \<dateOfBirth\> das übergeordnete Element für die Tags Tag, Monat und Jahr als untergeordnete Elemente.
 
-Die in der Struktur der XML-Syntax verwendeten Zeichen müssen bestimmte Regeln einhalten. Bestimmte Zeichen, wie z. B. „<“ für „ist kleiner als“, müssen durch eine spezielle Zeichenfolge ersetzt werden, damit sie keine Probleme verursachen. Wenn Sie einfach nur „<“ verwenden, versteht XML es als ein öffnendes Tag und erwartet, dass es irgendwann geschlossen wird. Um Fehler in diesem und ähnlichen Fällen zu vermeiden, wird das Zeichen durch eine Entitätsreferenz ersetzt:
+Die in der Struktur der XML-Syntax verwendeten Zeichen müssen bestimmte Regeln einhalten. Bestimmte Zeichen, wie z. B. „<“ für „ist kleiner als“, müssen durch eine spezielle Zeichenfolge ersetzt werden, damit sie keine Probleme verursachen. Wenn einfach nur „<“ verwendet wird, versteht XML es als ein öffnendes Tag und erwartet, dass es irgendwann geschlossen wird. Um Fehler in diesem und ähnlichen Fällen zu vermeiden, wird das Zeichen durch eine Entitätsreferenz ersetzt:
   
 | String | Zeichen | Bedeutung | 
 | ---- | ---- | ---- | ----|
@@ -102,7 +103,9 @@ Die in der Struktur der XML-Syntax verwendeten Zeichen müssen bestimmte Regeln 
 | \&gt; | > | größer als |
 | \&amp; | & | und |
 | \&apos; | ' | Apostroph |
-| \&quot; | " | Anführungszeichen |  
+| \&quot; | " | Anführungszeichen |   
+
+Beispiel:   
   
 ```xml
 <photographer>Bernd &amp; Hilla Becher</photographer>
@@ -127,12 +130,12 @@ Attribute werden häufig in einer Hierarchie verwendet, um Informationen zu erfa
 ```
 Der Schrägstrich hier am Ende des Tags (selbstschließender Tag) bedeutet, dass das Element leer und in sich geschlossen ist. Es ist nicht notwendig, ein öffnendes und schließendes Tag zu schreiben, wenn keine anderen Elemente dazwischen liegen oder keine Inhalte vorhanden sind. Sie sehen dies oft in der XML-Ausgabe, wenn das Metadatenfeld leer ist. 
 
-Am Anfang eines XML-Dokuments steht oft ein so genannter Prolog oder eine Deklaration (*declaration):
+Am Anfang eines XML-Dokuments steht oft ein so genannter Prolog oder eine Deklaration (*declaration*):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 ```
-Es ist optional, liefert aber Informationen über die verwendete Version und Kodierung^[2]. Wenn es enthalten ist, muss es am Anfang des Dokuments über dem Root-Element platziert werden. Der XML-Prolog oder die Deklaration hat keinen schließenden Tag.
+Dies ist optional, liefert aber Informationen über die verwendete Version und Kodierung^[2]. Wenn er benutzt wird, muss er am Anfang des Dokuments über dem Root-Element platziert werden. Der XML-Prolog oder die Deklaration hat kein schließendes Tag.
 
 ::: callout
 XML-Dokumente, die alle diese Regeln erfüllen, werden als „wohlgeformte“ XML-Dokumente bezeichnet.
