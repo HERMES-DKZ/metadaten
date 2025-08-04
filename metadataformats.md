@@ -25,7 +25,7 @@ Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein
 ::: challenge
 
 ### Frage 
-Kennen Sie Formate, in denen man Daten strukturiert speichern kann? 
+Kennt ihr Formate, in denen man Daten strukturiert speichern kann? 
 
 ::: solution
 
@@ -46,9 +46,9 @@ Der Vorteil der Verwendung eines solchen Formats ist die Interoperabilität der 
 
 ### Aufgabe
 
-Öffnen Sie die Dateien "artworksShort.csv" und "artworksShort.xslx" in einem Tabellenkalkulationsprogramm Ihrer Wahl. 
+Öffne die Dateien "artworksShort.csv" und "artworksShort.xslx" in einem Tabellenkalkulationsprogramm deiner Wahl. 
 
-- Was fällt Ihnen auf?    
+- Was fällt dir auf?    
 - In welcher Form liegen die Daten vor?    
 - Welche Vorteile hat diese Art der Erfassung von Daten?   
 - Warum sind diese Daten interoperabel?
@@ -89,7 +89,7 @@ ID;artist;title;date
 3;Banksy;Girl with Ballon;2002
 ```
 
-In dem Moment, in dem Sie die CSV-Datei in einem Tabellenkalkulationsprogramm geöffnet haben, wurden einige Parameter abgefragt, bevor Sie die Inhalte angezeigt bekommen haben. Hier ist der Grund dafür:  
+Beim Öffnen der CSV-Datei in einem Tabellenkalkulationsprogramm wurden einige Parameter abgefragt, bevor die Inhalte angezeigt werden. Hier ist der Grund dafür:  
 
 Die Daten in dieser speziellen CSV-Datei sind durch Semikolons – die so genannten Trennzeichen oder *delimiter* – getrennt. Die meisten Dateien, die Trennzeichen jeglicher Art nutzen, erhalten oft die Erweiterung *.csv*, auch wenn das Trennzeichen kein Komma ist, wie das vorliegende Beispiel zeigt. In vielen Dateien finden Sie den Inhalt der Datenfelder in Anführungszeichen eingeschlossen, wenn Sie die Datei in einem Editor öffnen. Dies sieht man in einem Tabellenprogramm nicht. Die einzelenen Datensätze stehen meist in einer Zeile und werden durch einen Zeilenumbruch getrennt. Oft definiert die erste Zeile die Spaltenüberschriften. Werden diese Parameter beim Öffnen der Datei korrekt eingegeben, werden die Daten in die entsprechenden Felder des Tabellenkalkulationspogramms übertragen.  
 
@@ -107,15 +107,15 @@ Einer der Nachteile ist, dass in diesem Format nur einfache tabellarische Daten 
 
 #### Datenorganisation
 
-Bei der Erfassung von Daten in Tabellen gibt es eine Reihe von Aspekten zu beachten, damit die Daten korrekt verarbeitet werden können. Neben den oben erwähnten kommagetrennten Feldern, die Probleme verursachen können, gibt es noch viele andere Probleme. Datumsangaben oder Namen sind eine große Fehlerquelle. Unterschiedliche Schreibweisen können zu Fehlinterpretationen führen. Wie interpretieren Sie zum Beispiel das Datum 25-01-11, wenn es in einem einzigen Feld steht? Oder: Welcher Teil des Namens einer Person ist der Vorname und welcher Teil ist der Nachname?
+Bei der Erfassung von Daten in Tabellen gibt es eine Reihe von Aspekten zu beachten, damit die Daten korrekt verarbeitet werden können. Neben den oben erwähnten kommagetrennten Feldern, die Probleme verursachen können, gibt es noch viele andere Probleme. Datumsangaben oder Namen sind eine große Fehlerquelle. Unterschiedliche Schreibweisen können zu Fehlinterpretationen führen. Wie interpretiert man zum Beispiel das Datum 25-01-11, wenn es in einem einzigen Feld steht? Oder: Welcher Teil des Namens einer Person ist der Vorname und welcher Teil ist der Nachname?
 
-Daher ist ein wichtiger Teil bei der Erfassung von Metadaten die Annotierung, d.g. die korrekte Auszeichung der Daten. Nehmen Sie *Walker Evans* als Beispiel: Wenn Sie ihn als „Künstler“ oder „Fotograf“ kennzeichnen, können die Benutzer die Rolle im Kontext des Datensatzes verstehen. 
+Daher ist ein wichtiger Teil bei der Erfassung von Metadaten die Annotierung, d.h. die korrekte Auszeichnung der Daten. Nimm *Walker Evans* als Beispiel: Kennzeichnet man ihn als „Künstler“ oder „Fotograf“, können die Benutzer die Rolle im Kontext des Datensatzes verstehen. 
 
-Wenn Sie Datumsangaben in einer Tabelle erfassen, kann es sich lohnen, Jahr, Monat und Tag in separate Felder aufzuteilen, um das oben beschriebene Problem zu vermeiden. 
+Wenn Datumsangaben in einer Tabelle erfassen werden sollen, kann es sich lohnen, Jahr, Monat und Tag in separate Felder aufzuteilen, um das oben beschriebene Problem zu vermeiden. 
 
 ::: callout
 
-Sie finden weitere Informationen zur Organisation von Daten in der Lektion [Data Organization in Spreadsheets for Social Scientists](https://datacarpentry.github.io/spreadsheets-socialsci/)
+Weitere Informationen zur Organisation von Daten bietet die Lektion [Data Organization in Spreadsheets for Social Scientists](https://datacarpentry.github.io/spreadsheets-socialsci/)
 
 :::  
 
@@ -123,8 +123,8 @@ Es gibt bestimmte Datenformate, die einige der hier genannten Probleme lösen. S
 
 ::: keypoints
 
-* Wenn Sie die Daten und die Tabelle formatieren oder Daten mit der Software analysieren wollen, verwenden Sie das XSLX-Format zum Speichern, Formatieren und Analysieren der Daten.    
-* Wenn Sie die Daten nicht analysieren oder visualisieren müssen oder sehr große Datenmengen haben, verwenden Sie ein Format wie CSV, um die Daten zu speichern oder weiterzugeben.    
-* Es ist hilfreich die Daten bei der Erfassung zu annotieren, zum Beispiel durch Überschriften zu kennzeichnen.   
-* Seien Sie sich der Probleme bewusst, die entstehen können, wenn Sie zum Beispiel Datums- oder Namensangaben erfassen und machen Sie sich vorab Gedanken, welche Form für Ihre Zwecke geeignet sein könnte.
+* Wenn Daten oder die Tabelle formatiert werden müssen oder Daten mit der Software analysiert werden sollen, eignet sich das XSLX-Format zum Speichern, Formatieren und Analysieren der Daten.    
+* Wenn dies nicht der Fall ist oder sehr große Datenmengen vorliegen, empfiehlt sich ein Format wie CSV, um die Daten zu speichern oder weiterzugeben.    
+* Es ist hilfreich, die Daten bei der Erfassung zu annotieren, zum Beispiel durch Überschriften zu kennzeichnen.   
+* Sei dir der Probleme bewusst, die entstehen können, wenn zum Beispiel Datums- oder Namensangaben erfasst werden und mache dir vorab Gedanken, welche Form für deine Zwecke geeignet sein könnte.
 :::
