@@ -48,13 +48,13 @@ Die grundlegende XML-Syntax einer METS-Datei sieht folgendermaßen aus:
 </mets>
 ```   
 
-Beispiele und Erklärungen zu den einzelnen Sektionen finden Sie im [Tutorial zum Standard](https://www.loc.gov/standards/mets/METSOverview.v2.html).    
+Beispiele und Erklärungen zu den einzelnen Sektionen finden sich im [Tutorial zum Standard](https://www.loc.gov/standards/mets/METSOverview.v2.html).    
 
 ::: challenge
 
 ### Übung 1
 
-Verwenden Sie das Beispiel aus der XML-Übung und ordnen Sie die Metadatenelemente der Struktur des METS-Standards zu.
+Verwende das Beispiel aus der XML-Übung und ordne die Metadatenelemente der Struktur des METS-Standards zu.
 
 ::: solution 
 
@@ -119,13 +119,13 @@ Eine Lösung zum ersten Datensatz aus den Beispieldaten der XML-Übung kann so a
 
 ### Übung 2
 
-Die [Webseite der Library of Congress](https://www.loc.gov/standards/mets/mets-examples.html) listet verschiedene Beispiele für die Umsetzung des Standards. Schauen Sie sich einige davon an. Was fällt Ihnen auf?  
+Die [Webseite der Library of Congress](https://www.loc.gov/standards/mets/mets-examples.html) listet verschiedene Beispiele für die Umsetzung des Standards. Schaue dir einige davon an. Was fällt auf?  
 
 ::: solution
 
 ### Lösung
 
-- In vielen Beispielen wird der MODS-Standard innerhalb der METS-Struktur verwendet.
+- In vielen Beispielen wird der MODS-Standard innerhalb der METS-Struktur verwendet. Vielfach wird daher auch vom Austauschformat METS/MODS gesprochen. 
 - Die letzten Abschnitte fehlen oft oder enthalten nicht viele Daten.
 - Die amdSec enthält technische Informationen zu den technischen Mitteln der Digitalisierung, wie Kamera oder Scanner und deren Einstellungen.
 - Die amdSec ist manchmal in weitere Abschnitte unterteilt, z. B. Rechte und technische Daten. Es wird also eine weitere Strukturierung innerhalb der Sektionen vorgenommen. 

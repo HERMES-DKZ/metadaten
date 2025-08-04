@@ -47,7 +47,7 @@ Technisch gesehen kann RDF in mehreren Formaten implementiert werden, darunter J
 
 ### Übung
 
-Schauen Sie sich den [Wikidata-Eintrag von Frida Kahlos Gemälde "Die zwei Fridas"](https://www.wikidata.org/wiki/Q3232010) genauer an. Finden Sie einen alternativen Weg das Prädikat zu beschreiben anstelle der Nutzung von Dublin Core?
+Schaue dir den [Wikidata-Eintrag von Frida Kahlos Gemälde "Die zwei Fridas"](https://www.wikidata.org/wiki/Q3232010) genauer an. Gibt es einen alternativen Weg das Prädikat zu beschreiben anstelle der Nutzung von Dublin Core?
 
 ::: solution
 
@@ -62,7 +62,7 @@ Die in Wikidata für eine Entität aufgeführten Informationen sind alle mit Eig
 
 ### Exercise
 
-Nutzen Sie Wikidata, um die folgenden Aussagen zu modellieren:   
+Nutze Wikidata, um die folgenden Aussagen zu modellieren:   
 1) Michelangelo hat die Pietà geschaffen.  
 2) Michelangelo wurde in Caprese Michelangelo geboren.  
 3) Die Pietá befindet sich im Petersdom.   

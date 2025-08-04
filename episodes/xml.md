@@ -143,12 +143,12 @@ XML-Dokumente, die alle diese Regeln erfüllen, werden als „wohlgeformte“ XM
 
 ### Übung
 
-Öffnen Sie die Datei "moma_artworks.csv". Wählen Sie den Datensatz eines Werkes aus und schreiben Sie die Daten in XML. 
+Öffne die Datei "moma_artworks.csv". Wähle den Datensatz eines Werkes aus und schreibe die Daten in XML. 
 
 ::: hint
 
-* Erkennen Sie eine Struktur in den Daten? Können Teile der Daten zum Beispiel unter einer Kategorie gesammelt werden?
-* Verwenden Sie Einrückungen zur Strukturisierung und Hierarchisierung.
+* Erkennst du eine Struktur in den Daten? Können Teile der Daten zum Beispiel unter einer Kategorie gesammelt werden?
+* Verwende Einrückungen zur Strukturisierung und Hierarchisierung.
    
 :::
   
@@ -308,7 +308,7 @@ XML-Dokumente, die alle diese Regeln erfüllen, werden als „wohlgeformte“ XM
   </artwork>
 </artworks>
 ```
-Dies ist eine mögliche Lösung. Sie können auch andere Wege wählen, um die Daten zu strukturieren, indem Sie Elemente wie "artistBio“ oder "gender" innerhalb eines übergeordneten Elements wie "artist“ verschachteln:
+Dies ist eine mögliche Lösung. Es gibt weitere Wege, um die Daten zu strukturieren, indem zum Beispiel Elemente wie "artistBio“ oder "gender" innerhalb eines übergeordneten Elements wie "artist“ verschachtelt werden:
 
 ```xml
 <artist>
@@ -327,7 +327,7 @@ Es ist wahrscheinlich, dass nicht alle Teilnehmer die Übung in der vorgesehenen
 
 ### Diskussion
 
-Vergleichen Sie Ihr Ergebnis mit denen anderer Teilnehmenden. Was fällt Ihnen auf?
+Vergleichet eure Ergebnis mit denen anderer Teilnehmenden. Was fällt euch auf?
 
 :::
 
