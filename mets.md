@@ -20,7 +20,7 @@ Nach Beendigung dieser Episode sollten Teilnehmende in der Lage sein
 
 ## METS Metadata Encoding & Transmission Standard
 
-METS ist ein von der Library of Congress bereitgestelltes XML-Format, das über XML Schema definiert wurde, um digitale Sammlungen von Objekten mit Metadaten zu beschreiben. Der Standard legt keinen Namen oder eine Reihenfolge für die Metadatenfelder selbst fest, sondern dient dazu, diese in einer standardisierten Weise zu strukturieren. Er wird häufig für die Langzeitarchivierung verwendet und unterstützt das digitale Sammlungsmanagement. Es lassen sich Informationen über die Herkunft digitaler Objekte ebenso abbilden, wie Verwaltungs- oder Strukturinformationen zur Sammlung.    
+METS ist ein von der Library of Congress bereitgestelltes XML-Format, um digitale Sammlungen von Objekten mit Metadaten zu beschreiben. Der Standard legt keinen Namen oder eine Reihenfolge für die Metadatenfelder selbst fest, sondern dient dazu, diese in einer standardisierten Weise zu strukturieren. Er wird häufig für die Langzeitarchivierung verwendet und unterstützt das digitale Sammlungsmanagement. Es lassen sich Informationen über die Herkunft digitaler Objekte ebenso abbilden, wie Verwaltungs- oder Strukturinformationen zur Sammlung.    
 
 
 Die Metadaten werden in eine von sieben Sektionen eingeordnet:   

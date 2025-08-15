@@ -39,7 +39,7 @@ Die Tags erhalten einen Namen, der den Inhalt beschreibt:
 <artist>Walker Evans</artist>
 ```
 
-Diese Struktur ist Ihnen vielleicht bekannt. Die Sprache HTML, die für Webseiten verwendet wird, hat eine ähnliche Struktur. Sie basiert ebenfalls auf SGML. HTML ermöglicht es, die typischen Elemente eines textbasierten Dokuments - wie Überschriften, Absätze, Listen oder Tabellen - als solche auf einer Webseite auszuzeichnen und die Seite semantisch zu strukturieren. Im Gegensatz zu HTML, wo es Regeln für die Benennung von Tags gibt - wie z.B. \<h1\>\</h1\> für Überschriften - können XML-Tags, vorbehaltlich einiger technischer Regeln, frei benannt werden. Dies macht es besonders interessant für die Entwicklung von Metadatenstandards und Ontologien.
+Diese Struktur kommt dir vielleicht bekannt vor. Die Sprache HTML, die für Webseiten verwendet wird, hat eine ähnliche Struktur. Sie basiert ebenfalls auf SGML. HTML ermöglicht es, die typischen Elemente eines textbasierten Dokuments - wie Überschriften, Absätze, Listen oder Tabellen - als solche auf einer Webseite auszuzeichnen und die Seite semantisch zu strukturieren. Im Gegensatz zu HTML, wo es Regeln für die Benennung von Tags gibt - wie z.B. \<h1\>\</h1\> für Überschriften - können XML-Tags, vorbehaltlich einiger technischer Regeln, frei benannt werden. Dies macht es besonders interessant für die Entwicklung von Metadatenstandards und Ontologien.
 
 #### Regeln für die Benennung von XML-Tags^[1]  
 
@@ -53,9 +53,9 @@ Namen:
 
 Bewährte Benennungspraktiken und was zu beachten ist:
 
-* Verwenden Sie aussagekräftige Namen. 
-* Verwenden sie kurze und einfach Namen.
-* Vermeiden Sie - / . / : in den Namen, wie \<first-name\> (: ist für Namensräume reserviert, die eine besondere Funktion haben).
+* Verwende aussagekräftige Namen. 
+* Verwende kurze und einfach Namen.
+* Vermeide - / . / : in den Namen, wie \<first-name\> (: ist für Namensräume reserviert, die eine besondere Funktion haben).
 * In XML-Tags wird zwischen Groß- und Kleinschreibung unterschieden, sie sind *case sensitive*. Der Tag <Name> unterscheidet sich von <name>.
 * XML schneidet mehrere Leerzeichen nicht ab.  
 
@@ -128,7 +128,7 @@ Attribute werden häufig in einer Hierarchie verwendet, um Informationen zu erfa
   <item2/>
 </collection>
 ```
-Der Schrägstrich hier am Ende des Tags (selbstschließender Tag) bedeutet, dass das Element leer und in sich geschlossen ist. Es ist nicht notwendig, ein öffnendes und schließendes Tag zu schreiben, wenn keine anderen Elemente dazwischen liegen oder keine Inhalte vorhanden sind. Sie sehen dies oft in der XML-Ausgabe, wenn das Metadatenfeld leer ist. 
+Der Schrägstrich hier am Ende des Tags (selbstschließender Tag) bedeutet, dass das Element leer und in sich geschlossen ist. Es ist nicht notwendig, ein öffnendes und schließendes Tag zu schreiben, wenn keine anderen Elemente dazwischen liegen oder keine Inhalte vorhanden sind. Man sieht dies oft in der XML-Ausgabe, wenn das Metadatenfeld leer ist. 
 
 Am Anfang eines XML-Dokuments steht oft ein so genannter Prolog oder eine Deklaration (*declaration*):
 
