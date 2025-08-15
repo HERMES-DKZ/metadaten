@@ -4,7 +4,7 @@ title: Setup
 
 ## Datensätze
 
-Laden Sie die Zip-Datei mit den [Daten](https://github.com/HERMES-DKZ/metadaten/blob/main/episodes/data/artworks_data.zip) herunter und speichern Sie diese an einem geeigneten Ort wie etwa dem Desktop. Entpacken Sie die Datei.   
+Lade die Zip-Datei mit den [Daten](https://github.com/HERMES-DKZ/metadaten/blob/main/episodes/data/artworks_data.zip) herunter und speichere diese an einem geeigneten Ort wie etwa dem Desktop. Entpacke die Datei.   
 
 Die Daten wurden folgenden Projekten bzw. Datensätzen entnommen und für diese Lektion modifiziert:  
 
@@ -18,7 +18,7 @@ Die Daten wurden folgenden Projekten bzw. Datensätzen entnommen und für diese 
 
 ### Details
 
-Sie benötigen ein Tabellenkalkulationsprogramm wie Excel oder Libre Calc. Ebenso benötigen Sie einen Editor wie Notepad, Vim oder Kate. Eine Erweiterung für XML-Funktionalitäten ist nicht notwendig. 
+Benötigt werden ein Tabellenkalkulationsprogramm wie Excel oder Libre Calc, ebenso ein Editor wie Notepad, Vim oder Kate. Eine Erweiterung für XML-Funktionalitäten ist nicht notwendig. 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -26,8 +26,8 @@ Sie benötigen ein Tabellenkalkulationsprogramm wie Excel oder Libre Calc. Ebens
 
 ### Windows
 
-Wenn Sie MS Office einschließlich Excel installiert haben, können Sie diese Tabellenkalkulationssoftware verwenden. Andernfalls können Sie die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) installieren und Libre Office Calc verwenden.  
-Sie können den Standardtexteditor verwenden oder z.B. Windows Notepad aus dem Store installieren. 
+Wenn MS Office einschließlich Excel installiert ist, verwende diese Tabellenkalkulationssoftware. Andernfalls lade die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) herunter und verwende Libre Office Calc.  
+Nutze den Standardtexteditor oder installiere z.B. Windows Notepad aus dem Store. 
 
 ::::::::::::::::::::::::
 
@@ -35,8 +35,8 @@ Sie können den Standardtexteditor verwenden oder z.B. Windows Notepad aus dem S
 
 ### MacOS
 
-Wenn Sie MS Office für Mac einschließlich Excel installiert haben, können Sie diese Tabellenkalkulationssoftware verwenden. Andernfalls können Sie die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) installieren und Libre Office Calc verwenden. 
-Sie können einen Texteditor wie TextEdit oder einen anderen Texteditor Ihrer Wahl verwenden.
+Wenn MS Office für Mac einschließlich Excel installiert ist, verwende diese Tabellenkalkulationssoftware. Andernfalls lade die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) herunter und nutze Libre Office Calc. 
+Verwende einen Texteditor wie TextEdit oder einen anderen Texteditor deiner Wahl.
 
 ::::::::::::::::::::::::
 
@@ -45,8 +45,8 @@ Sie können einen Texteditor wie TextEdit oder einen anderen Texteditor Ihrer Wa
 
 ### Linux
 
-Sie können die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) installieren und Libre Office Calc oder jedes andere beliebige Tabellenkalkulationsprogramm nutzen. 
-Sie können den Standard-Texteditor verwenden oder zum Beispiel [Vim](https://www.vim.org/) installieren. 
+Installiere die Open-Source-Software [Libre Office](https://www.libreoffice.org/download/download-libreoffice/) und nutze daraus Libre Office Calc oder jedes andere beliebige Tabellenkalkulationsprogramm deiner Wahl. 
+Verwende den Standard-Texteditor oder zum Beispiel [Vim](https://www.vim.org/). 
 
 ::::::::::::::::::::::::
 

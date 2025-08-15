@@ -35,7 +35,7 @@ Ein Uniform Resource Identifier (URI) ist ein Bezeichner, der aus einer Zeichenf
 
 Das Prädikat wird ebenfalls durch einen URI definiert. Dies ist z.B. möglich, wenn die Beziehung durch einen Metadatenstandard definiert ist. Die Metadatenfelder der Standards haben ihren eigenen URI. Die Beziehung zwischen einer Künstlerin und ihrem Kunstwerk kann unter mit dem Dublin Core-Element "creator" modelliert werden.
 
-```
+```xml
 <https://www.wikidata.org/wiki/Q5588><http://purl.org/dc/terms/creator><https://www.wikidata.org/wiki/Q3232010>
 ```     
 
