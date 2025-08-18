@@ -29,22 +29,21 @@ Diese Lektion dient als Einführung in die Bedeutung von Daten und Metadaten in 
 
 Überlege: 
 
-Woher beziehen Sie Ihre Informationen?
+- Woher beziehst du deine Informationen?
+- Wie verfasst du deine Texte?
+- Wie pflegst du deine Kontakte zu Institutionen, sowohl im akademischen als auch im beruflichen Bereich?
+- Nutzt du eher Papierkopien von Archivdokumenten oder digitale Fotografien davon?
+- Hast du schon einmal ein Archiv persönlich besucht, um vor Ort zu recherchieren?
+- Hast du schon einmal die Website eines Museums oder einer Bibliothek genutzt, um digitale Ressourcen zu recherchieren?
 
-- Wie verfassen Sie Ihre Texte?
-- Wie pflegen Sie Ihre Kontakte zu Institutionen, sowohl im akademischen als auch im beruflichen Bereich?
-- Nutzen Sie eher Papierkopien von Archivdokumenten oder digitale Fotografien davon?
-- Haben Sie schon einmal ein Archiv persönlich besucht, um vor Ort zu recherchieren?
-- Haben Sie schon einmal die Website eines Museums oder einer Bibliothek genutzt, um digitale Ressourcen zu recherchieren?
-
-Reflektieren Sie, wie sehr Digitalität inzwischen verschiedene Bereiche Ihrer beruflichen und privaten Lebenswelt durchdringt – und wie viel davon sich bereits ganz selbstverständlich anfühlt.
+Reflektiere, wie sehr Digitalität inzwischen verschiedene Bereiche deiner beruflichen und privaten Lebenswelt durchdringt – und wie viel davon sich bereits ganz selbstverständlich anfühlt.
 
 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-Reflektieren Sie das letzte Thema, an dem Sie gearbeitet haben. Suchen Sie nach Online-Ressourcen, die Ihre Forschung unterstützen oder Ihr Verständnis vertiefen könnten.
-Mit welchen Herausforderungen waren Sie bei der Recherche oder Interpretation online verfügbarer Informationen konfrontiert?
+Reflektiere das letzte Thema, an dem du gearbeitet hast. Suche nach Online-Ressourcen, die deine Forschung unterstützen oder dein Verständnis vertiefen könnten.
+Mit welchen Herausforderungen warst du bei der Recherche oder Interpretation online verfügbarer Informationen konfrontiert?
 :::::::::::::::::::::::: 
 
 
