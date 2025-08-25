@@ -45,7 +45,7 @@ Mit welcher Art von Daten arbeiten wir, wenn wir mit digitalisierten Kulturobjek
 
 Schritt 1: Beobachtung   
 
-Wähle ein digitales Bild eines Objekts aus der Online-Sammlung des Metropolitan Museum of Modern Art (oder einem anderen digitalen Museumsresportal).
+Wähle ein digitales Bild eines Objekts aus der Online-Sammlung des Metropolitan Museum of Modern Art (oder eines anderen digitalen Museumsportals).
 Reflektiere anschließend über die folgenden Fragen:
 Was für ein Objekt ist das im Original?
 Was genau siehst du auf dem Bildschirm – und was bedeutet es, das Objekt als digitale Repräsentation zu sehen?
