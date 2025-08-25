@@ -21,7 +21,7 @@ Nach Abschluss dieser Lerneinheit sollten die Teilnehmenden in der Lage sein
 ## Datentypen
 
 **Analoge Daten:**
-Analoge Daten entstehen in physischen, nicht-digitalen Formaten wie handschriftliche Dokumenten, Fotografien oder materielle Objekten.
+Analoge Daten entstehen in physischen, nicht-digitalen Formaten wie handschriftliche Dokumente, Fotografien oder materielle Objekte.
 
 **Digitalisierte Daten:**
 Digitalisierte Daten sind ehemals analoge Informationen, die durch Verfahren wie Scannen, Transkribieren oder Kodieren in digitale Formate überführt wurden. Diese Transformation erweitert nicht nur die Zugänglichkeit, sondern ermöglicht auch die Anwendung digitaler Analysemethoden.  Ein differenziertes Verständnis digitalisierter Daten ist zentral, um nachvollziehen zu können, wie analoge Ressourcen für digitale Nutzungskontexte aufbereitet und angepasst werden.
