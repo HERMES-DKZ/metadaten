@@ -57,13 +57,13 @@ Die Digitalisierung beginnt mit der Umwandlung von Inhalten in Daten. Ganz gleic
 
 ---
 
-Beim Arbeiten mit digitalen Ressourcen sind sowohl **Daten** als auch **Metadaten** entscheidend – sie ermöglichen es, Informationen zu ordnen, gezielt zu suchen und sinnvoll zu interpretieren. Die Herausforderungen, denen Sie bei Online-Recherchen begegnen, spiegeln die Komplexität im Umgang mit diesen Elementen wider. Dazu zählen unter anderem die Sicherstellung der Genauigkeit, der Erhalt des Kontexts sowie der Umgang mit großen Informationsmengen.
+Beim Arbeiten mit digitalen Ressourcen sind sowohl **Daten** als auch **Metadaten** entscheidend – sie ermöglichen es, Informationen zu ordnen, gezielt zu suchen und sinnvoll zu interpretieren. Die Herausforderungen, denen ihr bei Online-Recherchen begegnet, spiegeln die Komplexität im Umgang mit diesen Elementen wider. Dazu zählen unter anderem die Sicherstellung der Genauigkeit, der Erhalt des Kontexts sowie der Umgang mit großen Informationsmengen.
 
 Bevor wir in den praktischen Teil der Lerneinheit übergehen, wollen wir kurz besprechen, **in welchen Bereichen die Digitalisierung für die Geisteswissenschaften eine zentrale Rolle spielt**.
 
 
 #### 1. Transformation der Forschungsmethoden
-Digitale Werkzeuge ermöglichen es Forschenden, mit großen Datenmengen zu arbeiten, etwa mit eingescannten Texten, Bildern oder historischen Dokumenten. Techniken wie Text-Mining, Mustererkennung und Datenvisualisierung helfen dabei, neue Erkenntnisse zu gewinnen, die mit traditionellen Methoden nur schwer zu erreichen sind. Machen Sie sich keine Sorgen, wenn Ihnen diese Methoden noch nicht vertraut sind – das Verständnis der Konzepte von Daten und Metadaten ist der erste Schritt, um sich diesen Themen zu nähern.
+Digitale Werkzeuge ermöglichen es Forschenden, mit großen Datenmengen zu arbeiten, etwa mit eingescannten Texten, Bildern oder historischen Dokumenten. Techniken wie Text-Mining, Mustererkennung und Datenvisualisierung helfen dabei, neue Erkenntnisse zu gewinnen, die mit traditionellen Methoden nur schwer zu erreichen sind. Macht euch keine Sorgen, wenn Ihnen diese Methoden noch nicht vertraut sind – das Verständnis der Konzepte von Daten und Metadaten ist der erste Schritt, um sich diesen Themen zu nähern.
 Die Digitalisierung von Sammlungen in Galerien, Bibliotheken, Archiven und Museen ermöglicht den einfachen Online-Zugang zu einer Fülle historischer und kultureller Materialien. Dadurch können Forschende Quellen von überall auf der Welt studieren und ihr Arbeitsfeld deutlich erweitern.
 
 #### 2. Veränderungen in der Wissensvermittlung und Auswirkungen auf Lehre und Lernen
