@@ -55,8 +55,8 @@ Bewährte Benennungspraktiken und was zu beachten ist:
 
 * Verwende aussagekräftige Namen. 
 * Verwende kurze und einfach Namen.
-* Vermeide - / . / : in den Namen, wie \<first-name\> (: ist für Namensräume reserviert, die eine besondere Funktion haben).
-* In XML-Tags wird zwischen Groß- und Kleinschreibung unterschieden, sie sind *case sensitive*. Der Tag <Name> unterscheidet sich von <name>.
+* Vermeide - / . / : in den Namen, wie \<first-name\> (der : ist für Namensräume reserviert, die eine besondere Funktion haben).
+* In XML-Tags wird zwischen Groß- und Kleinschreibung unterschieden, sie sind *case sensitive*. Der Tag \<Name\> unterscheidet sich von \<name\>.
 * XML schneidet mehrere Leerzeichen nicht ab.  
 
 XML bietet auch die Möglichkeit, Kommentare zu verwenden, die nicht automatisch gelesen werden:
