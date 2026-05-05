@@ -506,27 +506,27 @@ damit sie keine Probleme verursachen. Wenn einfach nur „&lt;“ verwendet
 wird, versteht XML es als ein öffnendes Tag und erwartet, dass es
 irgendwann geschlossen wird. Um Fehler in diesem und ähnlichen Fällen zu
 vermeiden, wird das Zeichen durch eine Entitätsreferenz ersetzt:</p>
-<table class="table"><thead><tr class="header"><th>String</th>
+<table class="table"><thead><tr><th>String</th>
 <th>Zeichen</th>
 <th>Bedeutung</th>
 <th></th>
-</tr></thead><tbody><tr class="odd"><td>&amp;lt;</td>
+</tr></thead><tbody><tr><td>&amp;lt;</td>
 <td>&lt;</td>
 <td>kleiner als</td>
 <td></td>
-</tr><tr class="even"><td>&amp;gt;</td>
+</tr><tr><td>&amp;gt;</td>
 <td>&gt;</td>
 <td>größer als</td>
 <td></td>
-</tr><tr class="odd"><td>&amp;amp;</td>
+</tr><tr><td>&amp;amp;</td>
 <td>&amp;</td>
 <td>und</td>
 <td></td>
-</tr><tr class="even"><td>&amp;apos;</td>
+</tr><tr><td>&amp;apos;</td>
 <td>’</td>
 <td>Apostroph</td>
 <td></td>
-</tr><tr class="odd"><td>&amp;quot;</td>
+</tr><tr><td>&amp;quot;</td>
 <td>”</td>
 <td>Anführungszeichen</td>
 <td></td>
@@ -546,9 +546,9 @@ Anführungszeichen gesetzt:</p>
 <div class="codewrapper sourceCode" id="cb8">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb8-1"><a href="#cb8-1" tabindex="-1" aria-label="code-block-8-1"></a>&lt;<span class="kw">title</span><span class="ot"> lang=</span><span class="st">"author's original language"</span>&gt;Geben Sie den Titel immer in der Sprache des Autors an.&lt;/<span class="kw">title</span>&gt;</span>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb8-1"><a href="#cb8-1" tabindex="-1" aria-label="code-block-8-1"></a>&lt;<span class="kw">title</span> <span class="ot">lang=</span><span class="st">"author's original language"</span>&gt;Geben Sie den Titel immer in der Sprache des Autors an.&lt;/<span class="kw">title</span>&gt;</span>
 <span id="cb8-2"><a href="#cb8-2" tabindex="-1" aria-label="code-block-8-2"></a></span>
-<span id="cb8-3"><a href="#cb8-3" tabindex="-1" aria-label="code-block-8-3"></a>&lt;<span class="kw">commonTitle</span><span class="ot"> lang=</span><span class="st">"title as commonly known"</span>&gt;Geben Sie den Titel immer so an, wie er gemeinhin bekannt ist&lt;/<span class="kw">commonTitle</span>&gt;</span></code></pre>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1" aria-label="code-block-8-3"></a>&lt;<span class="kw">commonTitle</span> <span class="ot">lang=</span><span class="st">"title as commonly known"</span>&gt;Geben Sie den Titel immer so an, wie er gemeinhin bekannt ist&lt;/<span class="kw">commonTitle</span>&gt;</span></code></pre>
 </div>
 <p>Attribute werden häufig in einer Hierarchie verwendet, um
 Informationen zu erfassen, die für alle zugrunde liegenden Daten
@@ -556,7 +556,7 @@ gelten:</p>
 <div class="codewrapper sourceCode" id="cb9">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb9-1"><a href="#cb9-1" tabindex="-1" aria-label="code-block-9-1"></a>&lt;<span class="kw">collection</span><span class="ot"> name=</span><span class="st">"Modern Art"</span><span class="ot"> place=</span><span class="st">"New York"</span>&gt;</span>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb9-1"><a href="#cb9-1" tabindex="-1" aria-label="code-block-9-1"></a>&lt;<span class="kw">collection</span> <span class="ot">name=</span><span class="st">"Modern Art"</span> <span class="ot">place=</span><span class="st">"New York"</span>&gt;</span>
 <span id="cb9-2"><a href="#cb9-2" tabindex="-1" aria-label="code-block-9-2"></a>  &lt;<span class="kw">item1</span>/&gt;</span>
 <span id="cb9-3"><a href="#cb9-3" tabindex="-1" aria-label="code-block-9-3"></a>  &lt;<span class="kw">item2</span>/&gt;</span>
 <span id="cb9-4"><a href="#cb9-4" tabindex="-1" aria-label="code-block-9-4"></a>&lt;/<span class="kw">collection</span>&gt;</span></code></pre>
@@ -572,7 +572,7 @@ eine Deklaration (<em>declaration</em>):</p>
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb10-1"><a href="#cb10-1" tabindex="-1" aria-label="code-block-10-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span></code></pre>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb10-1"><a href="#cb10-1" tabindex="-1" aria-label="code-block-10-1"></a><span class="fu">&lt;?xml</span> <span class="ot">version=</span><span class="st">"1.0"</span> <span class="ot">encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span></code></pre>
 </div>
 <p>Dies ist optional, liefert aber Informationen über die verwendete
 Version und Kodierung<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Wenn er benutzt wird, muss er am Anfang
@@ -608,7 +608,7 @@ aus und schreibe die Daten in XML.</p>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
 <div class="accordion-body">
 <ul><li>Erkennst du eine Struktur in den Daten? Können Teile der Daten zum
 Beispiel unter einer Kategorie gesammelt werden?</li>
@@ -623,12 +623,12 @@ Hierarchisierung.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb11-1"><a href="#cb11-1" tabindex="-1" aria-label="code-block-11-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb11-1"><a href="#cb11-1" tabindex="-1" aria-label="code-block-11-1"></a><span class="fu">&lt;?xml</span> <span class="ot">version=</span><span class="st">"1.0"</span> <span class="ot">encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span>
 <span id="cb11-2"><a href="#cb11-2" tabindex="-1" aria-label="code-block-11-2"></a>&lt;<span class="kw">artworks</span>&gt;</span>
 <span id="cb11-3"><a href="#cb11-3" tabindex="-1" aria-label="code-block-11-3"></a>  &lt;<span class="kw">artwork</span>&gt;</span>
 <span id="cb11-4"><a href="#cb11-4" tabindex="-1" aria-label="code-block-11-4"></a>    &lt;<span class="kw">title</span>&gt;Green-Blue-Red (for Parkett no. 35)&lt;/<span class="kw">title</span>&gt;</span>
@@ -903,7 +903,7 @@ any links that you are not going to use.
   "identifier": "https://HERMES-DKZ.github.io/metadaten/xml.html",
   "dateCreated": "2025-05-22",
   "dateModified": "2025-08-26",
-  "datePublished": "2026-04-28"
+  "datePublished": "2026-05-05"
 }
 
   </script><script>
